@@ -1191,6 +1191,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 006bc3b17be2fc84e8fc087244ec81da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Shader: {fileID: 0}
+  Material: {fileID: 0}
   settings:
     LineThickness: 1
     DepthThreshold: 0.02
@@ -1209,7 +1211,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2044669848}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39b65c3318db2554e8ec1e1ead26bfd8, type: 3}
+  m_Script: {fileID: 11500000, guid: fe8a38c84f6d44347929f7958e7e1037, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   TitleState: Master-P_menuloop
