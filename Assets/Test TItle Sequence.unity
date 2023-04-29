@@ -970,6 +970,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Intermediate Link
       objectReference: {fileID: 0}
+    - target: {fileID: 6654888555445365477, guid: bb2acc673a367044ba2654cad71e5f2b, type: 3}
+      propertyPath: m_LinearDrag
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6654888555445365478, guid: bb2acc673a367044ba2654cad71e5f2b, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -986,8 +990,7 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 6654888555445365476, guid: bb2acc673a367044ba2654cad71e5f2b, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb2acc673a367044ba2654cad71e5f2b, type: 3}
 --- !u!1 &2086985392 stripped
 GameObject:
@@ -1014,7 +1017,7 @@ RelativeJoint2D:
   m_BreakTorque: Infinity
   m_MaxForce: 10000
   m_MaxTorque: 100
-  m_CorrectionScale: 0.3
+  m_CorrectionScale: 0.5
   m_AutoConfigureOffset: 0
   m_LinearOffset: {x: -0.9928044, y: 270.90704}
   m_AngularOffset: -0.0014138451
