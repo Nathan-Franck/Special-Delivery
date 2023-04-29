@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project source="Harmony Premium (HarmonyPremium.exe) version 22.0.1 build 19338 2023-03-01 16:52:00" version="2201" build="19338" creator="harmony">
+ <elements>
+  <element id="1" elementName="Gear_Rough" elementFolder="Gear_Rough" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
+   <drawings>
+    <dwg name="1"/>
+   </drawings>
+  </element>
+ </elements>
+ <options>
+  <metrics unitAspectRatioX="4" unitAspectRatioY="3" numberOfUnitsX="24" numberOfUnitsY="24" numberOfUnitsZ="12"/>
+  <resolution name="HDTV_1080p24" size="1920,1080" fovFit="VerticalFitFov" fov="41.112090439166927" projection="PerspectiveProjection"/>
+  <framerate val="24"/>
+  <zdragging val="true"/>
+  <zOrderCompatibilityWith7_3 val="false"/>
+  <pixelPerModelUnitForVectorLayers val="0.28800000000000009"/>
+  <pixelPerModelUnitForBitmapLayers val="0.28800000000000009"/>
+  <canvasForBitmapLayers size="3840,2160"/>
+  <imageProcessingFormat val="rgbaFloat"/>
+  <cameraInSymbols val="true"/>
+  <scaleFactor val="1"/>
+  <colorSpace val="sRGB"/>
+  <convertPalettesColorSpace val="true"/>
+ </options>
+ <timelineMarkers>
+  <timelineMarker markerStart="1" markerLength="37" colour="#FF0000FF" note="" name="GearTransition_Rough"/>
+ </timelineMarkers>
+ <scenes>
+  <scene name="Top" id="0ba7460e85200fb8" nbframes="64" startFrame="1" stopFrame="37">
+   <columns>
+    <column type="0" name="Gear_Rough" displayOrder="0" width="100" anonymous="true" id="1">
+     <elementSeq exposures="1-60" val="1" id="1"/>
+    </column>
+    <column type="0" name="ATV-0BA7460E85201EDF" color="#FFFFFFFF" displayOrder="0" width="100" anonymous="true" id="1">
+     <elementSeq exposures="1-60" val="1" id="1"/>
+    </column>
+    <column type="3" name="ATV-0BA7460E85201F6A" displayOrder="0" width="100" anonymous="true">
+     <step val="1" start="1" stop="1"/>
+     <points version="2">
+      <pt constSeg="false" x="37" yLocal="5.522473558800546" y="5.522473558800546"/>
+      <pt constSeg="false" x="18" yLocal="5.5224735588005469" y="5.5224735588005469" rhx="6.2699999999999996" lhx="-1.3200000000000003" rx="24.27" lx="16.68"/>
+      <pt constSeg="false" x="10" yLocal="5.5224735588005469" y="5.5224735588005469" rhx="1.3200000000000003" lhx="-2.9700000000000006" rx="11.32" lx="7.0299999999999994"/>
+      <pt constSeg="false" x="14" yLocal="7.5248490724368136" y="7.5248490724368136"/>
+      <pt constSeg="false" x="1" yLocal="26.105757173568158" y="26.105757173568158"/>
+     </points>
+    </column>
+    <column type="3" name="ATV-0BA7460E85201F6B" displayOrder="0" width="100" anonymous="true">
+     <step val="1" start="1" stop="1"/>
+     <points version="2">
+      <pt constSeg="false" x="14" yLocal="-2.3356375252235848" y="-2.3356375252235848"/>
+      <pt constSeg="false" x="37" yLocal="-0.71252032214679639" y="-0.71252032214679639"/>
+      <pt constSeg="false" x="18" yLocal="-0.71252032214678818" y="-0.71252032214678818" rhx="6.2699999999999996" lhx="-1.3200000000000003" rx="24.27" lx="16.68"/>
+      <pt constSeg="false" x="10" yLocal="-0.71252032214678818" y="-0.71252032214678818" rhx="1.3200000000000003" lhx="-2.9700000000000006" rx="11.32" lx="7.0299999999999994"/>
+      <pt constSeg="false" x="1" yLocal="0.95414231872508304" y="0.95414231872508304"/>
+     </points>
+    </column>
+    <column type="3" name="ATV-0BA7460E85201F6C" displayOrder="0" width="100" anonymous="true">
+     <step val="1" start="1" stop="1"/>
+     <points version="2">
+      <pt constSeg="false" x="18" yLocal="0" y="0" rhx="6.2699999999999996" lhx="-1.3200000000000003" rx="24.27" lx="16.68"/>
+      <pt constSeg="false" x="10" yLocal="0" y="0" rhx="1.3200000000000003" lhx="-2.9700000000000006" rx="11.32" lx="7.0299999999999994"/>
+      <pt constSeg="false" x="1,14,37" yLocal="0" y="0"/>
+     </points>
+    </column>
+    <column type="3" name="ATV-0BA7460E85201F6D" displayOrder="0" width="100" anonymous="true">
+     <step val="1" start="1" stop="1"/>
+     <points version="2">
+      <pt constSeg="false" x="14" yLocal="0.99999999999999745" y="0.99999999999999745"/>
+      <pt constSeg="false" x="18" yLocal="1" y="1" rhx="6.2699999999999996" lhx="-1.3200000000000003" rx="24.27" lx="16.68"/>
+      <pt constSeg="false" x="10" yLocal="1" y="1" rhx="1.3200000000000003" lhx="-2.9700000000000006" rx="11.32" lx="7.0299999999999994"/>
+      <pt constSeg="false" x="1" yLocal="1" y="1"/>
+      <pt constSeg="false" x="37" yLocal="4.9038631520917795" y="4.9038631520917795"/>
+     </points>
+    </column>
+    <column type="3" name="ATV-0BA7460E85201F6E" displayOrder="0" width="100" anonymous="true">
+     <step val="1" start="1" stop="1"/>
+     <points version="2">
+      <pt constSeg="false" x="14" yLocal="0.99999999999999889" y="0.99999999999999889"/>
+      <pt constSeg="false" x="18" yLocal="1" y="1" rhx="6.2699999999999996" lhx="-1.3200000000000003" rx="24.27" lx="16.68"/>
+      <pt constSeg="false" x="10" yLocal="1" y="1" rhx="1.3200000000000003" lhx="-2.9700000000000006" rx="11.32" lx="7.0299999999999994"/>
+      <pt constSeg="false" x="1" yLocal="1" y="1"/>
+      <pt constSeg="false" x="37" yLocal="4.9038631520917733" y="4.9038631520917733"/>
+     </points>
+    </column>
+    <column type="3" name="ATV-0BA7460E85201F6F" displayOrder="0" width="100" anonymous="true">
+     <step val="1" start="1" stop="1"/>
+     <points version="2">
+      <pt constSeg="false" x="37" yLocal="-146.60842202668871" y="-146.60842202668871"/>
+      <pt constSeg="false" x="18" yLocal="-146.60842202668852" y="-146.60842202668852" rhx="6.2699999999999996" lhx="-1.3200000000000003" rx="24.27" lx="16.68"/>
+      <pt constSeg="false" x="14" yLocal="-33.150006212220511" y="-33.150006212220511"/>
+      <pt constSeg="false" x="10" yLocal="0" y="0" rhx="1.3200000000000003" lhx="-2.9700000000000006" rx="11.32" lx="7.0299999999999994"/>
+      <pt constSeg="false" x="1" yLocal="0" y="0"/>
+     </points>
+    </column>
+    <column type="3" name="ATV-0BA7460E85201F70" displayOrder="0" width="100" anonymous="true">
+     <step val="1" start="1" stop="1"/>
+     <points version="2">
+      <pt constSeg="false" x="37" yLocal="-1.4528224515072982e-13" y="-1.4528224515072982e-13"/>
+      <pt constSeg="false" x="18" yLocal="0" y="0" rhx="6.2699999999999996" lhx="-1.3200000000000003" rx="24.27" lx="16.68"/>
+      <pt constSeg="false" x="10" yLocal="0" y="0" rhx="1.3200000000000003" lhx="-2.9700000000000006" rx="11.32" lx="7.0299999999999994"/>
+      <pt constSeg="false" x="1" yLocal="0" y="0"/>
+      <pt constSeg="false" x="14" yLocal="1.9083328088781126e-14" y="1.9083328088781126e-14"/>
+     </points>
+    </column>
+    <column type="3" name="ATV-0BA7460E85201F96" displayOrder="0" width="100" anonymous="true">
+     <step val="1" start="1" stop="1"/>
+     <points version="2">
+      <pt constSeg="false" x="1" yLocal="-22.914946797222697" y="-22.914946797222697"/>
+      <pt constSeg="false" x="14" yLocal="-6.3747116936665851" y="-6.3747116936665851"/>
+      <pt constSeg="false" x="18" yLocal="-1.6649981261063378" y="-1.6649981261063378" rhx="6.2699999999999996" lhx="-1.3200000000000003" rx="24.27" lx="16.68"/>
+      <pt constSeg="false" x="10" yLocal="-1.6649981261063378" y="-1.6649981261063378" rhx="1.3200000000000003" lhx="-2.9700000000000006" rx="11.32" lx="7.0299999999999994"/>
+      <pt constSeg="false" x="37" yLocal="-1.6649981261063234" y="-1.6649981261063234"/>
+     </points>
+    </column>
+    <column type="3" name="ATV-0BA7460E85201F97" displayOrder="0" width="100" anonymous="true">
+     <step val="1" start="1" stop="1"/>
+     <points version="2">
+      <pt constSeg="false" x="14" yLocal="-4.9544098593597186" y="-4.9544098593597186"/>
+      <pt constSeg="false" x="1" yLocal="-1.6226897221582579" y="-1.6226897221582579"/>
+      <pt constSeg="false" x="18" yLocal="-1.1782463512590986" y="-1.1782463512590986" rhx="6.2699999999999996" lhx="-1.3200000000000003" rx="24.27" lx="16.68"/>
+      <pt constSeg="false" x="10" yLocal="-1.1782463512590986" y="-1.1782463512590986" rhx="1.3200000000000003" lhx="-2.9700000000000006" rx="11.32" lx="7.0299999999999994"/>
+      <pt constSeg="false" x="37" yLocal="-1.1782463512590868" y="-1.1782463512590868"/>
+     </points>
+    </column>
+    <column type="3" name="ATV-0BA7460E85201F98" displayOrder="0" width="100" anonymous="true">
+     <step val="1" start="1" stop="1"/>
+     <points version="2">
+      <pt constSeg="false" x="18" yLocal="0" y="0" rhx="6.2699999999999996" lhx="-1.3200000000000003" rx="24.27" lx="16.68"/>
+      <pt constSeg="false" x="10" yLocal="0" y="0" rhx="1.3200000000000003" lhx="-2.9700000000000006" rx="11.32" lx="7.0299999999999994"/>
+      <pt constSeg="false" x="1,14,37" yLocal="0" y="0"/>
+     </points>
+    </column>
+    <column type="3" name="ATV-0BA7460E85201F99" displayOrder="0" width="100" anonymous="true">
+     <step val="1" start="1" stop="1"/>
+     <points version="2">
+      <pt constSeg="false" x="37" yLocal="-4.6661180973597469" y="-4.6661180973597469"/>
+      <pt constSeg="false" x="18" yLocal="0.999999999999999" y="0.999999999999999" rhx="6.2699999999999996" lhx="-1.3200000000000003" rx="24.27" lx="16.68"/>
+      <pt constSeg="false" x="10" yLocal="0.999999999999999" y="0.999999999999999" rhx="1.3200000000000003" lhx="-2.9700000000000006" rx="11.32" lx="7.0299999999999994"/>
+      <pt constSeg="false" x="14" yLocal="0.99999999999999922" y="0.99999999999999922"/>
+      <pt constSeg="false" x="1" yLocal="1" y="1"/>
+     </points>
+    </column>
+    <column type="3" name="ATV-0BA7460E85201F9A" displayOrder="0" width="100" anonymous="true">
+     <step val="1" start="1" stop="1"/>
+     <points version="2">
+      <pt constSeg="false" x="37" yLocal="-4.6661180973597549" y="-4.6661180973597549"/>
+      <pt constSeg="false" x="18" yLocal="0.99999999999999933" y="0.99999999999999933" rhx="6.2699999999999996" lhx="-1.3200000000000003" rx="24.27" lx="16.68"/>
+      <pt constSeg="false" x="10" yLocal="0.99999999999999933" y="0.99999999999999933" rhx="1.3200000000000003" lhx="-2.9700000000000006" rx="11.32" lx="7.0299999999999994"/>
+      <pt constSeg="false" x="1" yLocal="1" y="1"/>
+      <pt constSeg="false" x="14" yLocal="1.0000000000000004" y="1.0000000000000004"/>
+     </points>
+    </column>
+    <column type="3" name="ATV-0BA7460E85201F9B" displayOrder="0" width="100" anonymous="true">
+     <step val="1" start="1" stop="1"/>
+     <points version="2">
+      <pt constSeg="false" x="18" yLocal="-138.27905922733723" y="-138.27905922733723" rhx="6.2699999999999996" lhx="-1.3200000000000003" rx="24.27" lx="16.68"/>
+      <pt constSeg="false" x="37" yLocal="-138.27905922733723" y="-138.27905922733723"/>
+      <pt constSeg="false" x="14" yLocal="-54.633759590810001" y="-54.633759590810001"/>
+      <pt constSeg="false" x="1" yLocal="0" y="0"/>
+      <pt constSeg="false" x="10" yLocal="28.525070642202692" y="28.525070642202692" rhx="1.3200000000000003" lhx="-2.9700000000000006" rx="11.32" lx="7.0299999999999994"/>
+     </points>
+    </column>
+    <column type="3" name="ATV-0BA7460E85201F9C" displayOrder="0" width="100" anonymous="true">
+     <step val="1" start="1" stop="1"/>
+     <points version="2">
+      <pt constSeg="false" x="1" yLocal="0" y="0"/>
+      <pt constSeg="false" x="18" yLocal="3.1805546814635187e-15" y="3.1805546814635187e-15" rhx="6.2699999999999996" lhx="-1.3200000000000003" rx="24.27" lx="16.68"/>
+      <pt constSeg="false" x="10" yLocal="3.1805546814635187e-15" y="3.1805546814635187e-15" rhx="1.3200000000000003" lhx="-2.9700000000000006" rx="11.32" lx="7.0299999999999994"/>
+      <pt constSeg="false" x="14" yLocal="1.9083328088781091e-14" y="1.9083328088781091e-14"/>
+      <pt constSeg="false" x="37" yLocal="1.5486578105200438e-12" y="1.5486578105200438e-12"/>
+     </points>
+    </column>
+   </columns>
+   <options>
+    <defaultDisplay val="Display"/>
+   </options>
+   <rootgroup name="Top">
+    <options>
+     <collapsed val="false"/>
+    </options>
+    <nodeslist>
+     <module type="COMPOSITE" name="Composite" pos="0,0,1" publishUnderTab="Composite">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <compositeMode val="compositeBitmap"/>
+       <flattenOutput val="true"/>
+       <flattenVector val="false"/>
+       <composite2d val="false"/>
+       <composite3d val="false"/>
+       <outputZ val="LEFTMOST"/>
+       <outputZInputPort val="1"/>
+       <applyFocus val="true"/>
+       <multiplier val="1" defaultValue="1"/>
+       <tvgPalette val="compositedPalette"/>
+       <mergeVector val="false"/>
+      </attrs>
+     </module>
+     <module type="DISPLAY" name="Display" pos="50,50,2" publishUnderTab="Display">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+     </module>
+     <module type="WRITE" name="Write" pos="-50,50,3" publishUnderTab="Write">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <exportToMovie val="false"/>
+       <drawingName val="frames/final-"/>
+       <moviePath val="frames/output"/>
+       <movieFormat val="com.toonboom.quicktime.legacy"/>
+       <movieAudio/>
+       <movieVideo/>
+       <movieVideoaudio/>
+       <leadingZeros val="3"/>
+       <start val="1"/>
+       <drawingType val="TGA"/>
+       <enabling>
+        <filter val="ALWAYS"/>
+        <filterName/>
+        <filterResX val="720"/>
+        <filterResY val="540"/>
+       </enabling>
+       <scriptMovie val="false"/>
+       <scriptEditor val="// Following code will be called at the end of Write Node rendering
+// operations to create a movie file from rendered images.
+
+// ..."/>
+       <colorSpace/>
+       <compositePartitioning val="NoCompositePartitioning"/>
+       <zPartitionRange val="1" defaultValue="1"/>
+       <cleanUpPartitionFolders val="true"/>
+      </attrs>
+     </module>
+     <module type="READ" name="Gear_Rough" pos="-75,-50,4" publishUnderTab="Drawing">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <enable3d val="false"/>
+       <faceCamera val="false"/>
+       <cameraAlignment val="NO_CAMERA_ALIGNMENT"/>
+       <offset>
+        <separate val="true"/>
+        <x val="0" defaultValue="0" col="ATV-0BA7460E85201F96"/>
+        <y val="0" defaultValue="0" col="ATV-0BA7460E85201F97"/>
+        <z val="0" defaultValue="0" col="ATV-0BA7460E85201F98"/>
+       </offset>
+       <scale>
+        <separate val="true"/>
+        <inFields val="false"/>
+        <xy val="1" defaultValue="1"/>
+        <x val="1" defaultValue="1" col="ATV-0BA7460E85201F99"/>
+        <y val="1" defaultValue="1" col="ATV-0BA7460E85201F9A"/>
+        <z val="1" defaultValue="1"/>
+       </scale>
+       <rotation>
+        <separate val="false"/>
+        <anglex val="0" defaultValue="0"/>
+        <angley val="0" defaultValue="0"/>
+        <anglez val="0" defaultValue="0" col="ATV-0BA7460E85201F9B"/>
+       </rotation>
+       <angle val="0" defaultValue="0" col="ATV-0BA7460E85201F9B"/>
+       <skew val="0" defaultValue="0" col="ATV-0BA7460E85201F9C"/>
+       <pivot>
+        <x val="-2.5248069473895307" defaultValue="0"/>
+        <y val="1.5135629999988653" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </pivot>
+       <splineOffset>
+        <x val="0.23560309268781976" defaultValue="0"/>
+        <y val="1.7913401109500457" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </splineOffset>
+       <ignoreParentPegScaling val="false"/>
+       <disableFieldRendering val="false"/>
+       <depth val="0"/>
+       <enableMinMaxAngle val="false"/>
+       <minAngle val="-360" defaultValue="-360"/>
+       <maxAngle val="360" defaultValue="360"/>
+       <nailForChildren val="false"/>
+       <ikHoldOrientation val="false"/>
+       <ikHoldX val="false"/>
+       <ikHoldY val="false"/>
+       <ikExcluded val="false"/>
+       <ikCanRotate val="true"/>
+       <ikCanTranslateX val="false"/>
+       <ikCanTranslateY val="false"/>
+       <ikBoneX val="0.20000000000000001" defaultValue="0.20000000000000001"/>
+       <ikBoneY val="0" defaultValue="0"/>
+       <ikStiffness val="1" defaultValue="1"/>
+       <drawing>
+        <elementMode val="true"/>
+        <element col="Gear_Rough">
+         <layer/>
+        </element>
+        <customName>
+         <name/>
+         <extension val="tga"/>
+         <fieldChart val="12" defaultValue="12"/>
+        </customName>
+       </drawing>
+       <readOverlay val="true"/>
+       <readLineArt val="true"/>
+       <readColorArt val="true"/>
+       <readUnderlay val="true"/>
+       <overlayArtDrawingMode val="VectorDrawingMode"/>
+       <lineArtDrawingMode val="VectorDrawingMode"/>
+       <colorArtDrawingMode val="VectorDrawingMode"/>
+       <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <pencilLineDeformationPreserveThickness val="false"/>
+       <pencilLineDeformationQuality val="Low"/>
+       <pencilLineDeformationSmooth val="1"/>
+       <pencilLineDeformationFitError val="3" defaultValue="3"/>
+       <readColor val="true"/>
+       <readTransparency val="true"/>
+       <colorTransformation val="Linear"/>
+       <colorSpace val="sRGB"/>
+       <applyMatteToColor val="N"/>
+       <enableLineTexture val="true"/>
+       <antialiasingQuality val="HIGH"/>
+       <antialiasingExponent val="1" defaultValue="1"/>
+       <opacity val="100" defaultValue="100"/>
+       <textureFilter val="NEAREST_FILTERED"/>
+       <adjustPencilThickness val="false"/>
+       <normalLineArtThickness val="true"/>
+       <zoomIndependentLineArtThickness val="zoomIndependent"/>
+       <multLineArtThickness val="1" defaultValue="1"/>
+       <addLineArtThickness val="0" defaultValue="0"/>
+       <minLineArtThickness val="0" defaultValue="0"/>
+       <maxLineArtThickness val="0" defaultValue="0"/>
+       <useDrawingPivot val="APPLY_ON_READ_TRANSFORM"/>
+       <flipHor val="false"/>
+       <flipVert val="false"/>
+       <turnBeforeAlignment val="false"/>
+       <noClipping val="false"/>
+       <xClipFactor val="0"/>
+       <yClipFactor val="0"/>
+       <alignmentRule val="CENTER_FIRST_PAGE"/>
+       <morphingVelo val="0" defaultValue="0"/>
+       <canAnimate val="true"/>
+       <tileHorizontal val="false"/>
+       <tileVertical val="false"/>
+      </attrs>
+     </module>
+     <module type="READ" name="Gear_Rough_1" pos="-75,-50,5" publishUnderTab="Gear_Rough">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <enable3d val="false"/>
+       <faceCamera val="false"/>
+       <cameraAlignment val="NO_CAMERA_ALIGNMENT"/>
+       <offset>
+        <separate val="true"/>
+        <x val="0" defaultValue="0" col="ATV-0BA7460E85201F6A"/>
+        <y val="0" defaultValue="0" col="ATV-0BA7460E85201F6B"/>
+        <z val="0" defaultValue="0" col="ATV-0BA7460E85201F6C"/>
+       </offset>
+       <scale>
+        <separate val="true"/>
+        <inFields val="false"/>
+        <xy val="1" defaultValue="1"/>
+        <x val="1" defaultValue="1" col="ATV-0BA7460E85201F6D"/>
+        <y val="1" defaultValue="1" col="ATV-0BA7460E85201F6E"/>
+        <z val="1" defaultValue="1"/>
+       </scale>
+       <rotation>
+        <separate val="false"/>
+        <anglex val="0" defaultValue="0"/>
+        <angley val="0" defaultValue="0"/>
+        <anglez val="0" defaultValue="0" col="ATV-0BA7460E85201F6F"/>
+       </rotation>
+       <angle val="0" defaultValue="0" col="ATV-0BA7460E85201F6F"/>
+       <skew val="0" defaultValue="0" col="ATV-0BA7460E85201F70"/>
+       <pivot>
+        <x val="-2.2395779570438821" defaultValue="0"/>
+        <y val="1.9444397766582608" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </pivot>
+       <splineOffset>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </splineOffset>
+       <ignoreParentPegScaling val="false"/>
+       <disableFieldRendering val="false"/>
+       <depth val="0"/>
+       <enableMinMaxAngle val="false"/>
+       <minAngle val="-360" defaultValue="-360"/>
+       <maxAngle val="360" defaultValue="360"/>
+       <nailForChildren val="false"/>
+       <ikHoldOrientation val="false"/>
+       <ikHoldX val="false"/>
+       <ikHoldY val="false"/>
+       <ikExcluded val="false"/>
+       <ikCanRotate val="true"/>
+       <ikCanTranslateX val="false"/>
+       <ikCanTranslateY val="false"/>
+       <ikBoneX val="0.20000000000000001" defaultValue="0.20000000000000001"/>
+       <ikBoneY val="0" defaultValue="0"/>
+       <ikStiffness val="1" defaultValue="1"/>
+       <drawing>
+        <elementMode val="true"/>
+        <element col="ATV-0BA7460E85201EDF">
+         <layer/>
+        </element>
+        <customName>
+         <name/>
+         <extension val="tga"/>
+         <fieldChart val="12" defaultValue="12"/>
+        </customName>
+       </drawing>
+       <readOverlay val="true"/>
+       <readLineArt val="true"/>
+       <readColorArt val="true"/>
+       <readUnderlay val="true"/>
+       <overlayArtDrawingMode val="VectorDrawingMode"/>
+       <lineArtDrawingMode val="VectorDrawingMode"/>
+       <colorArtDrawingMode val="VectorDrawingMode"/>
+       <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <pencilLineDeformationPreserveThickness val="false"/>
+       <pencilLineDeformationQuality val="Low"/>
+       <pencilLineDeformationSmooth val="1"/>
+       <pencilLineDeformationFitError val="3" defaultValue="3"/>
+       <readColor val="true"/>
+       <readTransparency val="true"/>
+       <colorTransformation val="Linear"/>
+       <colorSpace val="sRGB"/>
+       <applyMatteToColor val="N"/>
+       <enableLineTexture val="true"/>
+       <antialiasingQuality val="HIGH"/>
+       <antialiasingExponent val="1" defaultValue="1"/>
+       <opacity val="100" defaultValue="100"/>
+       <textureFilter val="NEAREST_FILTERED"/>
+       <adjustPencilThickness val="false"/>
+       <normalLineArtThickness val="true"/>
+       <zoomIndependentLineArtThickness val="zoomIndependent"/>
+       <multLineArtThickness val="1" defaultValue="1"/>
+       <addLineArtThickness val="0" defaultValue="0"/>
+       <minLineArtThickness val="0" defaultValue="0"/>
+       <maxLineArtThickness val="0" defaultValue="0"/>
+       <useDrawingPivot val="APPLY_ON_READ_TRANSFORM"/>
+       <flipHor val="false"/>
+       <flipVert val="false"/>
+       <turnBeforeAlignment val="false"/>
+       <noClipping val="false"/>
+       <xClipFactor val="0"/>
+       <yClipFactor val="0"/>
+       <alignmentRule val="CENTER_FIRST_PAGE"/>
+       <morphingVelo val="0" defaultValue="0"/>
+       <canAnimate val="true"/>
+       <tileHorizontal val="false"/>
+       <tileVertical val="false"/>
+      </attrs>
+     </module>
+     <module type="PEG" name="Master-P" pos="-75,-176,6" publishUnderTab="Master-P">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <enable3d val="false"/>
+       <faceCamera val="false"/>
+       <cameraAlignment val="NO_CAMERA_ALIGNMENT"/>
+       <position>
+        <separate val="false"/>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </position>
+       <scale>
+        <separate val="true"/>
+        <inFields val="false"/>
+        <xy val="1" defaultValue="1"/>
+        <x val="1" defaultValue="1"/>
+        <y val="1" defaultValue="1"/>
+        <z val="1" defaultValue="1"/>
+       </scale>
+       <rotation>
+        <separate val="false"/>
+        <anglex val="0" defaultValue="0"/>
+        <angley val="0" defaultValue="0"/>
+        <anglez val="0" defaultValue="0"/>
+       </rotation>
+       <angle val="0" defaultValue="0"/>
+       <skew val="0" defaultValue="0"/>
+       <pivot>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </pivot>
+       <splineOffset>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </splineOffset>
+       <ignoreParentPegScaling val="false"/>
+       <disableFieldRendering val="false"/>
+       <depth val="0"/>
+       <enableMinMaxAngle val="false"/>
+       <minAngle val="-360" defaultValue="-360"/>
+       <maxAngle val="360" defaultValue="360"/>
+       <nailForChildren val="false"/>
+       <ikHoldOrientation val="false"/>
+       <ikHoldX val="false"/>
+       <ikHoldY val="false"/>
+       <ikExcluded val="false"/>
+       <ikCanRotate val="true"/>
+       <ikCanTranslateX val="false"/>
+       <ikCanTranslateY val="false"/>
+       <ikBoneX val="0.20000000000000001" defaultValue="0.20000000000000001"/>
+       <ikBoneY val="0" defaultValue="0"/>
+       <ikStiffness val="1" defaultValue="1"/>
+       <groupAtNetworkBuilding val="false"/>
+       <addCompositeToGroup val="true"/>
+      </attrs>
+     </module>
+    </nodeslist>
+    <linkedlist>
+     <link out="Composite" in="Display"/>
+     <link out="Composite" in="Write"/>
+     <link out="Gear_Rough" in="Composite" inport="1"/>
+     <link out="Gear_Rough_1" in="Composite" inport="0"/>
+     <link out="Master-P" in="Gear_Rough_1" inport="0"/>
+     <link out="Master-P" in="Gear_Rough" inport="0"/>
+    </linkedlist>
+   </rootgroup>
+   <unconnectedComposite>
+    <module type="COMPOSITE" name="Unconnected_Composite" pos="0,0,0" publishUnderTab="Unconnected_Composite">
+     <options>
+      <collapsed val="false"/>
+      <version val="1"/>
+     </options>
+     <attrs>
+      <compositeMode val="compositeBitmap"/>
+      <flattenOutput val="true"/>
+      <flattenVector val="false"/>
+      <composite2d val="false"/>
+      <composite3d val="false"/>
+      <outputZ val="LEFTMOST"/>
+      <outputZInputPort val="1"/>
+      <applyFocus val="true"/>
+      <multiplier val="1" defaultValue="1"/>
+      <tvgPalette val="compositedPalette"/>
+      <mergeVector val="false"/>
+     </attrs>
+    </module>
+   </unconnectedComposite>
+   <metas>
+    <meta type="guideList" name="guideList" creator="Harmony Premium" version="1.0">
+     <guideList selectedGuide="-1"/>
+    </meta>
+    <meta type="alignmentGuideList" name="alignmentGuideList" creator="Harmony Premium" version="1.0">
+     <alignmentGuideList selectedGuide="-1"/>
+    </meta>
+   </metas>
+   <timelineOrderer/>
+  </scene>
+ </scenes>
+ <symbols>
+  <folder name="Symbols">
+   <scene id="0ba7460e85200fb8"/>
+  </folder>
+ </symbols>
+ <timeline>
+  <scene id="0ba7460e85200fb8"/>
+ </timeline>
+ <metas>
+  <meta type="int" name="projectStartTime" creator="Harmony Premium" version="1.0">
+   <int value=""/>
+  </meta>
+ </metas>
+</project>

@@ -1,0 +1,6 @@
+<!DOCTYPE SceneVersion>
+<SceneVersion Modified="2023-04-28 19:43:01" ID="1" VersionName="UI_Transitions">
+ <Element Name="Gear_Rough" ID="1" Folder="Gear_Rough">
+  <Drawing Key="" Version="1" Name="1"/>
+ </Element>
+</SceneVersion>
