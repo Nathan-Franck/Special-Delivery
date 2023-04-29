@@ -17,9 +17,29 @@ using UnityEngine.Profiling;
 
 namespace ToonBoom.TBGImporter
 {
+     /// <summary>
+ /// Attribute to select a single layer.
+ /// </summary>
+ public class LayerAttribute : PropertyAttribute
+ { 
+      // NOTHING - just oxygen.
+ }
+     [CustomPropertyDrawer(typeof(LayerAttribute))]
+ class LayerAttributeEditor : PropertyDrawer
+ {
+   
+     public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
+     {
+         // One line of  oxygen free code.
+          property.intValue = EditorGUI.LayerField(position, label,  property.intValue);
+     }
+ }
     [ScriptedImporter(6, "tbg")]
     public partial class TBGImporter : ScriptedImporter
     {
+        [Header("Prefab"), Layer]
+        public int Layer = 0;
+
         [HideInInspector]
         public bool Initialized;
         [Header("Animation")]
@@ -357,7 +377,8 @@ namespace ToonBoom.TBGImporter
                                     gameObject = CreateGameObject(
                                         node,
                                         usedNames,
-                                        parent: prefab.transform)
+                                        parent: prefab.transform,
+                                        Layer: Layer)
                                 }};
                             case "read":
                                 nodeToSkinToSpriteRenderer[node.name] = new Dictionary<int, SpriteRenderer>();
@@ -375,7 +396,8 @@ namespace ToonBoom.TBGImporter
                                         var gameObject = CreateGameObject(
                                             node,
                                             usedNames,
-                                            parent: prefab.transform);
+                                            parent: prefab.transform,
+                                            Layer: Layer);
                                         try
                                         {
                                             var spriteName = data.drawingAnimations.First().Value
@@ -409,6 +431,7 @@ namespace ToonBoom.TBGImporter
                     .ToList();
 
                 GameObject rootNode = instantiatedNodes.First().gameObject;
+                rootNode.layer = Layer;
                 rootNode.transform.parent = prefab.transform;
 
                 Dictionary<string, TransformRestInfo> nodeToRestInfo = new Dictionary<string, TransformRestInfo>();
@@ -460,6 +483,7 @@ namespace ToonBoom.TBGImporter
                             }
                             foreach (var nodeInInfo in nodeInInfos)
                             {
+                                nodeOutInfo.gameObject.layer = Layer;
                                 nodeOutInfo.gameObject.transform.parent = nodeInInfo.gameObject.transform;
 
                                 var pivotIn = nodeToPivot[nodeInInfo.name].FirstOrDefault();
@@ -1035,7 +1059,7 @@ namespace ToonBoom.TBGImporter
             return node.tag == "cutter" || node.tag == "inverseCutter";
         }
 
-        private static GameObject CreateGameObject(NodeSettings node, HashSet<string> usedNames, Transform parent)
+        private static GameObject CreateGameObject(NodeSettings node, HashSet<string> usedNames, Transform parent, int Layer)
         {
             var gameObjectName = node.name;
             for (var nameIndex = 1; usedNames.Contains(gameObjectName); nameIndex++)
@@ -1044,6 +1068,7 @@ namespace ToonBoom.TBGImporter
             }
             usedNames.Add(gameObjectName);
             GameObject gameObject = new GameObject(gameObjectName);
+            gameObject.layer = Layer;
             gameObject.transform.parent = parent;
             gameObject.transform.localPosition = Vector3.zero;
             return gameObject;
