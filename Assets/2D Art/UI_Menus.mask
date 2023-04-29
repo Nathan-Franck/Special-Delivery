@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI_Menus
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Master-P
+    m_Weight: 0
+  - m_Path: Master-P/Slides-G_Message-P
+    m_Weight: 1
+  - m_Path: Master-P/Slides-G_Message-P/Slides-G_bake_Message-G
+    m_Weight: 1
+  - m_Path: Master-P/Slides-G_Feather-P
+    m_Weight: 1
+  - m_Path: Master-P/Slides-G_Feather-P/Slides-G_Feather
+    m_Weight: 1
+  - m_Path: Master-P/Slides-G_Feather_2-P
+    m_Weight: 1
+  - m_Path: Master-P/Slides-G_Feather_2-P/Slides-G_Feather_2_Pivot
+    m_Weight: 1
+  - m_Path: Master-P/Slides-G_Feather_2-P/Slides-G_Feather_2_Pivot/Slides-G_Feather_2
+    m_Weight: 1
+  - m_Path: Master-P/Slides-G_Feather_3-P
+    m_Weight: 1
+  - m_Path: Master-P/Slides-G_Feather_3-P/Slides-G_Feather_3
+    m_Weight: 1
+  - m_Path: Master-P/Slides-G_Feather_4-P
+    m_Weight: 1
+  - m_Path: Master-P/Slides-G_Feather_4-P/Slides-G_Feather_4
+    m_Weight: 1
+  - m_Path: Master-P/Slides-G_SlideCard-P
+    m_Weight: 1
+  - m_Path: Master-P/Slides-G_SlideCard-P/Slides-G_SlideCard
+    m_Weight: 1
+  - m_Path: Master-P/Slides-G_Feather_1-P
+    m_Weight: 1
+  - m_Path: Master-P/Slides-G_Feather_1-P/Slides-G_Feather_1
+    m_Weight: 1
+  - m_Path: Master-P/Bird_Bird_Wing-P
+    m_Weight: 1
+  - m_Path: Master-P/Bird_Bird_Wing-P/Bird_Bird_Wing_Pivot
+    m_Weight: 1
+  - m_Path: Master-P/Bird_Bird_Wing-P/Bird_Bird_Wing_Pivot/Bird_Bird_Wing
+    m_Weight: 1
+  - m_Path: Master-P/Bird_Bird_Head-P-P
+    m_Weight: 1
+  - m_Path: Master-P/Bird_Bird_Head-P-P/Bird_Game-HoldingPoint
+    m_Weight: 1
+  - m_Path: Master-P/Bird_Bird_Head-P-P/Bird_Game-HoldingPoint/Bird_Bird_Head
+    m_Weight: 1
+  - m_Path: Master-P/Bird_Bird_Body-P
+    m_Weight: 1
+  - m_Path: Master-P/Bird_Bird_Body-P/Bird_Bird_Body
+    m_Weight: 1
+  - m_Path: Master-P/Bird_Bird_Foot-P_2
+    m_Weight: 1
+  - m_Path: Master-P/Bird_Bird_Foot-P_2/Bird_Bird_Foot_2
+    m_Weight: 1
+  - m_Path: Master-P/Bird_Bird_Foot_1-P
+    m_Weight: 1
+  - m_Path: Master-P/Bird_Bird_Foot_1-P/Bird_Bird_Foot_1
+    m_Weight: 1
+  - m_Path: Master-P/Bird_Tail-P
+    m_Weight: 1
+  - m_Path: Master-P/Bird_Tail-P/Bird_Tail_Pivot
+    m_Weight: 1
+  - m_Path: Master-P/Bird_Tail-P/Bird_Tail_Pivot/Bird_Tail
+    m_Weight: 1
+  - m_Path: Master-P/bake_Title-G
+    m_Weight: 0
+  - m_Path: Master-P/Deformation-BabyBlanket-P
+    m_Weight: 0
+  - m_Path: Master-P/Deformation-BabyBlanket-P/Deformation-BabyBlanket_GameBone
+    m_Weight: 0
+  - m_Path: Master-P/Deformation-BabyBlanket-P/Deformation-BabyBlanket_GameBone/Deformation-BabyBlanket_GameBone_Baby_Blanket
+    m_Weight: 0
+  - m_Path: Master-P/Deformation-BabyBlanket-P/Deformation-BabyBlanket_GameBone/Deformation-BabyBlanket_GameBone_1
+    m_Weight: 0
+  - m_Path: Master-P/Deformation-BabyBlanket-P/Deformation-BabyBlanket_GameBone/Deformation-BabyBlanket_GameBone_1/Deformation-BabyBlanket_GameBone_1_Baby_Blanket
+    m_Weight: 0
+  - m_Path: Master-P/Deformation-BabyBlanket-P/Deformation-BabyBlanket_GameBone/Deformation-BabyBlanket_GameBone_1/Deformation-BabyBlanket_GameBone_1_End
+    m_Weight: 0
+  - m_Path: Master-P/Deformation-BabyBlanket-P/Deformation-BabyBlanket_GameBone/Deformation-BabyBlanket_GameBone_1/Baby_Blanket
+    m_Weight: 0
+  - m_Path: Master-P/bake_button-P_1
+    m_Weight: 0
+  - m_Path: Master-P/bake_button-P_1/bake_button_1
+    m_Weight: 0
+  - m_Path: Master-P/bake_button-P
+    m_Weight: 0
+  - m_Path: Master-P/bake_button-P/bake_button
+    m_Weight: 0
