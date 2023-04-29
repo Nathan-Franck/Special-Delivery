@@ -5,8 +5,6 @@ using UnityEngine;
 
 public class SubpixelMovement : MonoBehaviour
 {
-    public GameObject target;
-
     // Move the camera angle by sin waves that jiggle the view in sub-pixel increments
     // This is to test the "staircase" effect of pixelated lines
     public float Speed = 1;
