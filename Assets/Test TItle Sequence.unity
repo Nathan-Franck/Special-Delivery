@@ -123,72 +123,20 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &1297175913
+--- !u!1001 &1803590883
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -8775761538755788430, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8281446492000365723, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -7234166213304903197, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -43.787155
-      objectReference: {fileID: 0}
     - target: {fileID: -7012332513657273500, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
       propertyPath: m_Name
       value: UI_Menus
       objectReference: {fileID: 0}
-    - target: {fileID: -6898416494475391851, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 49.657677
-      objectReference: {fileID: 0}
-    - target: {fileID: -4129320037305126437, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -3319055580961871859, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 97.86979
-      objectReference: {fileID: 0}
-    - target: {fileID: -2403818707325943665, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -1611855258167939670, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 765527310401184524, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 64.390144
-      objectReference: {fileID: 0}
-    - target: {fileID: 3259927125319986305, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0.30710536
-      objectReference: {fileID: 0}
-    - target: {fileID: 4893690378420501411, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0.30710536
-      objectReference: {fileID: 0}
-    - target: {fileID: 4921359041120845880, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6064006122500278555, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 43.19987
-      objectReference: {fileID: 0}
     - target: {fileID: 7287263684305758831, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7287263684305758831, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
       propertyPath: m_LocalPosition.x
@@ -229,14 +177,6 @@ PrefabInstance:
     - target: {fileID: 7287263684305758831, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7353123039550289890, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8844298951044891791, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: -3535015912173895022, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
@@ -322,5 +262,5 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
