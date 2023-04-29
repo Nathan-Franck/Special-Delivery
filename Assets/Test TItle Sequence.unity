@@ -421,7 +421,6 @@ GameObject:
   - component: {fileID: 1990057779}
   - component: {fileID: 1990057778}
   - component: {fileID: 1990057777}
-  - component: {fileID: 1990057781}
   - component: {fileID: 1990057780}
   m_Layer: 0
   m_Name: Camera
@@ -506,11 +505,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 65db6fa833b944e47844201e2dd4e3cc, type: 3}
+  m_audioClip: {fileID: 8300000, guid: ac0e6e1dde1a8c04faed1c87c8d99d08, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -592,17 +591,49 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!82 &1990057781
+--- !u!1 &2044669848 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -7012332513657273500, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
+  m_PrefabInstance: {fileID: 1803590883}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2044669850 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: -1205983641592107886, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
+  m_PrefabInstance: {fileID: 1803590883}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2044669852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2044669848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b65c3318db2554e8ec1e1ead26bfd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TitleState: Master-P_menuloop
+  TitleSounds:
+  - {fileID: 8300000, guid: 5d9055c8d9a96ca45b4d19d253c43916, type: 3}
+  - {fileID: 8300000, guid: a4b16d10dbd9d7343a4d7c4c16748df7, type: 3}
+  - {fileID: 8300000, guid: 8349385fe74d67647be1100b69cbd5e1, type: 3}
+  - {fileID: 8300000, guid: e9f87d3b5d0582943808178a13199a22, type: 3}
+  - {fileID: 8300000, guid: 0c0e3361b3b9e11418876af1b9ab86aa, type: 3}
+  Animator: {fileID: 2044669850}
+  AudioSource: {fileID: 0}
+  PreviousState: 
+--- !u!82 &2044669853
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1990057776}
+  m_GameObject: {fileID: 2044669848}
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 39d54730ed4a3fc40a042599d35496e9, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
