@@ -628,7 +628,7 @@
      <group name="Slides-G" pos="893,-175,1">
       <options>
        <collapsed val="false"/>
-       <subnodeCollapsed val="true"/>
+       <subnodeCollapsed val="false"/>
        <showsPublished val="true"/>
       </options>
       <attrs/>
