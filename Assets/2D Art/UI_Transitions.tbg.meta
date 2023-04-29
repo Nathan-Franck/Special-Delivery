@@ -1,7 +1,23 @@
 fileFormatVersion: 2
 guid: a8608ca714201044f931120e9dbff37e
-DefaultImporter:
+ScriptedImporter:
+  internalIDToNameTable: []
   externalObjects: {}
+  serializedVersion: 2
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+  script: {fileID: 11500000, guid: d4abdf9202f996f46874ad95f1a6d1ca, type: 3}
+  Initialized: 1
+  DiscretizationStep: 6
+  Framerate: 24
+  Stepped: 0
+  CreateAnimatorController: 1
+  AnimatorController: {fileID: 9100000, guid: 36e3ae2554754fa45ab5539959eccb39, type: 2}
+  MaintainCurvesOnClonedClips: 0
+  Shader: {fileID: 4800000, guid: 5d58be77f4b388945991a670eb30940e, type: 3}
+  SRGBTexture: 1
+  FilterMode: 1
+  MipmapEnabled: 1
+  CreateSpriteAtlas: 1
+  SpriteAtlas: {fileID: 4343727234628468602, guid: 5cb92d15d59ff874b8625e2bd0a5d023, type: 2}
