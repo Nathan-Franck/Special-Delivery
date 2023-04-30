@@ -72,6 +72,5 @@ public class UIGame : MonoBehaviour
         {
             PartyHat.SetActive(false);
         }
-
     }
 }
