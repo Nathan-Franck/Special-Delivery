@@ -8,3 +8,6 @@ Solid    "Vectorized Line"          0x0000000000000003   0   0   0 255
 Solid    WhiteMid                   0x0ba77787b84eafb8 255 255 255 255
 Solid    WhiteLo                    0x0ba77787b84eb005 235 235 235 255
 Solid    WhiteShad                  0x0ba77787b84eb007 216 216 216 255
+Solid    VividRed                   0x0ba75484ef732b6b 255  52  52 255
+Solid    DimRed                     0x0ba75484ef732b9e 147  43  43 255
+Solid    Red                        0x0ba75484ef733e46 225  67  67 255

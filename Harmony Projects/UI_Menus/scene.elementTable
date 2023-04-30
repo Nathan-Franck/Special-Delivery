@@ -14,4 +14,6 @@
  <element id="12" elementName="BabyBlanket" elementFolder="BabyBlanket" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="13" elementName="Tail" elementFolder="Tail" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="14" elementName="Baby_Blanket" elementFolder="Baby_Blanket" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="15" elementName="Menu" elementFolder="Menu.15" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="16" elementName="Bird_Head" elementFolder="Bird_Head.16" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
 </elements>
