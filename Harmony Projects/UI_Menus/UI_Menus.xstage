@@ -207,6 +207,11 @@
     <dwg name="1"/>
    </drawings>
   </element>
+  <element id="40" elementName="Watermark" elementFolder="Watermark" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
+   <drawings>
+    <dwg name="1"/>
+   </drawings>
+  </element>
  </elements>
  <options>
   <metrics unitAspectRatioX="4" unitAspectRatioY="3" numberOfUnitsX="24" numberOfUnitsY="24" numberOfUnitsZ="12"/>
@@ -236,7 +241,7 @@
   <timelineMarker markerStart="404" markerLength="100" colour="#1E90FFFF" note="" name="Credits"/>
  </timelineMarkers>
  <scenes>
-  <scene name="Top" id="0ba77787b84012f5" nbframes="520" startFrame="404" stopFrame="503">
+  <scene name="Top" id="0ba77787b84012f5" nbframes="520" startFrame="251" stopFrame="303">
    <columns>
     <column type="0" name="Drawing" displayOrder="0" width="100" anonymous="true" id="1">
      <elementSeq exposures="5-80,81-97,408-483,484-500" val="1" id="1"/>
@@ -3952,6 +3957,9 @@
     <column type="0" name="ATV-0BA7BDACEA74A2AF" displayOrder="0" width="100" anonymous="true" id="39">
      <elementSeq exposures="68-98,99-123,124-176,179-231,251-303" val="1" id="39"/>
     </column>
+    <column type="0" name="ATV-0BA7BDACEA755E48" displayOrder="0" width="100" anonymous="true" id="40">
+     <elementSeq exposures="124-176" val="1" id="40"/>
+    </column>
    </columns>
    <options>
     <defaultDisplay val="Display"/>
@@ -3961,13 +3969,13 @@
      <collapsed val="false"/>
     </options>
     <nodeslist>
-     <module type="DISPLAY" name="Display" pos="566,17,36" publishUnderTab="Display">
+     <module type="DISPLAY" name="Display" pos="566,17,37" publishUnderTab="Display">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
      </module>
-     <module type="COLOR_CARD" name="Colour-Card" pos="374,-111,10" publishUnderTab="Colour-Card">
+     <module type="COLOR_CARD" name="Colour-Card" pos="374,-111,11" publishUnderTab="Colour-Card">
       <options>
        <collapsed val="true"/>
        <version val="1"/>
@@ -3984,7 +3992,7 @@
        </color>
       </attrs>
      </module>
-     <module type="COMPOSITE" name="Composite_1" pos="552,-44,13" publishUnderTab="Composite_1">
+     <module type="COMPOSITE" name="Composite_1" pos="552,-44,14" publishUnderTab="Composite_1">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -4003,7 +4011,7 @@
        <mergeVector val="false"/>
       </attrs>
      </module>
-     <module type="PEG" name="Master-P" pos="621,-1632,5" publishUnderTab="Master-P">
+     <module type="PEG" name="Master-P" pos="621,-1632,6" publishUnderTab="Master-P">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -4065,7 +4073,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="WRITE" name="Write" pos="1477,-14,14" publishUnderTab="Write">
+     <module type="WRITE" name="Write" pos="1477,-14,15" publishUnderTab="Write">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -4098,7 +4106,7 @@
        <cleanUpPartitionFolders val="true"/>
       </attrs>
      </module>
-     <module type="COMPOSITE" name="Composite" pos="809,-105,18" publishUnderTab="Composite">
+     <module type="COMPOSITE" name="Composite" pos="809,-105,19" publishUnderTab="Composite">
       <options>
        <collapsed val="true"/>
        <version val="1"/>
@@ -4117,7 +4125,7 @@
        <mergeVector val="false"/>
       </attrs>
      </module>
-     <group name="Slides-G" pos="791,-351,35">
+     <group name="Slides-G" pos="791,-351,36">
       <options>
        <collapsed val="true"/>
        <subnodeCollapsed val="true"/>
@@ -5445,10 +5453,10 @@
        <link out="bake_Message-G" in="Composite" inport="6"/>
       </linkedlist>
      </group>
-     <group name="Bird" pos="997,-413,27">
+     <group name="Bird" pos="997,-413,28">
       <options>
        <collapsed val="true"/>
-       <subnodeCollapsed val="false"/>
+       <subnodeCollapsed val="true"/>
        <showsPublished val="true"/>
       </options>
       <attrs/>
@@ -5800,7 +5808,7 @@
        </module>
        <module type="PEG" name="Bird_Foot_1-P" pos="285,-70,16" publishUnderTab="Bird_Foot_1-P">
         <options>
-         <collapsed val="false"/>
+         <collapsed val="true"/>
          <version val="1"/>
         </options>
         <attrs>
@@ -6480,7 +6488,7 @@
        </module>
        <module type="PEG" name="Tail-P" pos="0,0,8" publishUnderTab="Tail-P">
         <options>
-         <collapsed val="false"/>
+         <collapsed val="true"/>
          <version val="1"/>
         </options>
         <attrs>
@@ -6543,7 +6551,7 @@
        </module>
        <module type="PEG" name="Bird_Head-P-P" pos="0,0,7" publishUnderTab="Bird_Head-P-P">
         <options>
-         <collapsed val="false"/>
+         <collapsed val="true"/>
          <version val="1"/>
         </options>
         <attrs>
@@ -6805,7 +6813,7 @@
        <link out="WinnerHat-P" in="WinnerHat" inport="0"/>
       </linkedlist>
      </group>
-     <group name="bake_Title-G" pos="1036,-444,29">
+     <group name="bake_Title-G" pos="1036,-444,30">
       <options>
        <collapsed val="true"/>
        <subnodeCollapsed val="false"/>
@@ -6949,7 +6957,7 @@
        <link out="Title" in="Multi-Port-Out"/>
       </linkedlist>
      </group>
-     <group name="Deformation-BabyBlanket" pos="1109,-474,34">
+     <group name="Deformation-BabyBlanket" pos="1109,-474,35">
       <options>
        <collapsed val="true"/>
        <subnodeCollapsed val="true"/>
@@ -7032,7 +7040,7 @@
        <link out="GameBone_1" in="Multi-Port-Out"/>
       </linkedlist>
      </group>
-     <module type="PEG" name="Deformation-BabyBlanket-P" pos="1111,-535,32" publishUnderTab="Deformation-BabyBlanket-P">
+     <module type="PEG" name="Deformation-BabyBlanket-P" pos="1111,-535,33" publishUnderTab="Deformation-BabyBlanket-P">
       <options>
        <collapsed val="true"/>
        <version val="1"/>
@@ -7094,7 +7102,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="Baby_Blanket" pos="1123,-413,33" publishUnderTab="Drawing">
+     <module type="READ" name="Baby_Blanket" pos="1123,-413,34" publishUnderTab="Drawing">
       <options>
        <collapsed val="true"/>
        <version val="1"/>
@@ -7206,7 +7214,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <group name="Deformation-Title" pos="1031,-505,31">
+     <group name="Deformation-Title" pos="1031,-505,32">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="false"/>
@@ -7333,9 +7341,9 @@
        <link out="Bone_1" in="Multi-Port-Out"/>
       </linkedlist>
      </group>
-     <module type="PEG" name="Deformation-Title-P" pos="1030,-566,11" publishUnderTab="Deformation-Title-P">
+     <module type="PEG" name="Deformation-Title-P" pos="1030,-566,12" publishUnderTab="Deformation-Title-P">
       <options>
-       <collapsed val="false"/>
+       <collapsed val="true"/>
        <version val="1"/>
       </options>
       <attrs>
@@ -7395,9 +7403,9 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="PEG" name="Bird-P" pos="1013,-474,26" publishUnderTab="Bird-P">
+     <module type="PEG" name="Bird-P" pos="1013,-474,27" publishUnderTab="Bird-P">
       <options>
-       <collapsed val="false"/>
+       <collapsed val="true"/>
        <version val="1"/>
       </options>
       <attrs>
@@ -7458,9 +7466,9 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="PEG" name="bake_button-back-P" pos="1244,-443,17" publishUnderTab="bake_button-P_1">
+     <module type="PEG" name="bake_button-back-P" pos="1244,-443,18" publishUnderTab="bake_button-P_1">
       <options>
-       <collapsed val="true"/>
+       <collapsed val="false"/>
        <version val="1"/>
       </options>
       <attrs>
@@ -7521,7 +7529,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <group name="bake_button-back" pos="1228,-382,16">
+     <group name="bake_button-back" pos="1228,-382,17">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="false"/>
@@ -7529,7 +7537,7 @@
       </options>
       <attrs/>
       <nodeslist>
-       <module type="MULTIPORT_IN" name="Multi-Port-In" pos="-352,199,4">
+       <module type="MULTIPORT_IN" name="Multi-Port-In" pos="-352,199,7">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -7538,7 +7546,7 @@
          <port type="PEG" idx="0"/>
         </ports>
        </module>
-       <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="-352,498,3">
+       <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="-352,498,6">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -7547,9 +7555,9 @@
          <port type="IMAGE" idx="0"/>
         </ports>
        </module>
-       <module type="READ" name="button-back" pos="-351,286,1" publishUnderTab="Menu_1">
+       <module type="READ" name="button-back" pos="-351,286,5" publishUnderTab="Menu_1">
         <options>
-         <collapsed val="true"/>
+         <collapsed val="false"/>
          <version val="1"/>
         </options>
         <attrs>
@@ -7659,7 +7667,7 @@
          <tileVertical val="false"/>
         </attrs>
        </module>
-       <module type="Turbulence" name="Turbulence_1" pos="-360,335,2" publishUnderTab="Turbulence">
+       <module type="Turbulence" name="Turbulence_1" pos="-358,345,4" publishUnderTab="Turbulence">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -7700,7 +7708,7 @@
          <deformationquality val="Medium"/>
         </attrs>
        </module>
-       <module type="COMPOSITE" name="Composite" pos="0,0,0" publishUnderTab="Composite">
+       <module type="COMPOSITE" name="Composite" pos="-333,416,1" publishUnderTab="Composite">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -7719,7 +7727,7 @@
          <mergeVector val="false"/>
         </attrs>
        </module>
-       <module type="PEG" name="button-back-P" pos="0,0,0" publishUnderTab="button-back-P">
+       <module type="PEG" name="button-back-P" pos="-316,245,2" publishUnderTab="button-back-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -7790,7 +7798,7 @@
        <link out="button-back-P" in="button-back" inport="0"/>
       </linkedlist>
      </group>
-     <module type="PEG" name="New_Game_Head" pos="876,-443,24" publishUnderTab="Bird_Head-P-P_1">
+     <module type="PEG" name="New_Game_Head" pos="876,-443,25" publishUnderTab="Bird_Head-P-P_1">
       <options>
        <collapsed val="true"/>
        <version val="1"/>
@@ -7853,7 +7861,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <group name="bake_Bird_Head_1-G" pos="834,-382,21">
+     <group name="bake_Bird_Head_1-G" pos="834,-382,22">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="false"/>
@@ -8052,7 +8060,7 @@
        <link out="RenderPreview" in="Multi-Port-Out"/>
       </linkedlist>
      </group>
-     <module type="PEG" name="bake_button-option-P_2" pos="517,-515,20" publishUnderTab="bake_button-option-P_1">
+     <module type="PEG" name="bake_button-option-P_2" pos="517,-515,21" publishUnderTab="bake_button-option-P_1">
       <options>
        <collapsed val="true"/>
        <version val="1"/>
@@ -8115,7 +8123,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="PEG" name="bake_button-option-P_1" pos="404,-484,23" publishUnderTab="bake_button-option-P_1">
+     <module type="PEG" name="bake_button-option-P_1" pos="404,-484,24" publishUnderTab="bake_button-option-P_1">
       <options>
        <collapsed val="true"/>
        <version val="1"/>
@@ -8178,7 +8186,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <group name="button-option-1_1" pos="405,-423,30">
+     <group name="button-option-1_1" pos="405,-423,31">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="false"/>
@@ -8708,7 +8716,7 @@
        <link out="Lock" in="Composite_2" inport="1"/>
       </linkedlist>
      </group>
-     <module type="PEG" name="bake_button-option-P" pos="306,-453,19" publishUnderTab="bake_button-option-P_1">
+     <module type="PEG" name="bake_button-option-P" pos="306,-453,20" publishUnderTab="bake_button-option-P_1">
       <options>
        <collapsed val="true"/>
        <version val="1"/>
@@ -8771,7 +8779,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <group name="button-option-1" pos="307,-392,28">
+     <group name="button-option-1" pos="307,-392,29">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="false"/>
@@ -9301,7 +9309,7 @@
        <link out="Lock" in="Composite_2" inport="1"/>
       </linkedlist>
      </group>
-     <module type="COMPOSITE" name="Composite_4" pos="470,-362,9" publishUnderTab="Composite_2">
+     <module type="COMPOSITE" name="Composite_4" pos="470,-362,10" publishUnderTab="Composite_2">
       <options>
        <collapsed val="true"/>
        <version val="1"/>
@@ -9320,7 +9328,7 @@
        <mergeVector val="false"/>
       </attrs>
      </module>
-     <group name="button-option-1_2" pos="518,-454,25">
+     <group name="button-option-1_2" pos="518,-454,26">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="false"/>
@@ -9850,7 +9858,7 @@
        <link out="Lock" in="Composite_2" inport="1"/>
       </linkedlist>
      </group>
-     <module type="PEG" name="bake_button-option-P_4" pos="630,-484,15" publishUnderTab="bake_button-option-P_2">
+     <module type="PEG" name="bake_button-option-P_4" pos="630,-484,16" publishUnderTab="bake_button-option-P_2">
       <options>
        <collapsed val="true"/>
        <version val="1"/>
@@ -9913,7 +9921,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <group name="button-option-1_3" pos="632,-423,4">
+     <group name="button-option-1_3" pos="632,-423,5">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="false"/>
@@ -10443,7 +10451,7 @@
        <link out="Lock" in="Composite_2" inport="1"/>
       </linkedlist>
      </group>
-     <module type="PEG" name="bake_button-option-P_5" pos="438,-567,12" publishUnderTab="bake_button-option-P_2">
+     <module type="PEG" name="bake_button-option-P_5" pos="438,-567,13" publishUnderTab="bake_button-option-P_2">
       <options>
        <collapsed val="true"/>
        <version val="1"/>
@@ -10506,7 +10514,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <group name="button-option-1_4" pos="431,-523,22">
+     <group name="button-option-1_4" pos="431,-523,23">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="false"/>
@@ -11036,7 +11044,7 @@
        <link out="Lock" in="Composite_2" inport="1"/>
       </linkedlist>
      </group>
-     <module type="READ" name="SleepTimeIndicator" pos="-2,-674,1" publishUnderTab="SleepTimeIndicator">
+     <module type="READ" name="SleepTimeIndicator" pos="-2,-674,3" publishUnderTab="SleepTimeIndicator">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -11148,7 +11156,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="MinuteHand" pos="-148,-674,6" publishUnderTab="MinuteHand">
+     <module type="READ" name="MinuteHand" pos="-148,-674,7" publishUnderTab="MinuteHand">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -11260,7 +11268,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="COMPOSITE" name="Composite_2" pos="-39,-576,7" publishUnderTab="Composite_2">
+     <module type="COMPOSITE" name="Composite_2" pos="-39,-576,8" publishUnderTab="Composite_2">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -11279,9 +11287,9 @@
        <mergeVector val="false"/>
       </attrs>
      </module>
-     <module type="PEG" name="SleepTimeIndicator-P" pos="-66,-788,3" publishUnderTab="SleepTimeIndicator-P">
+     <module type="PEG" name="SleepTimeIndicator-P" pos="-66,-788,4" publishUnderTab="SleepTimeIndicator-P">
       <options>
-       <collapsed val="false"/>
+       <collapsed val="true"/>
        <version val="1"/>
       </options>
       <attrs>
@@ -11342,7 +11350,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="PEG" name="MinuteHand-P" pos="-133,-738,8" publishUnderTab="MinuteHand-P">
+     <module type="PEG" name="MinuteHand-P" pos="-133,-738,9" publishUnderTab="MinuteHand-P">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -11405,6 +11413,255 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
+     <group name="bake_Watermark-P-G" pos="133,-903,1">
+      <options>
+       <collapsed val="false"/>
+       <subnodeCollapsed val="true"/>
+       <showsPublished val="true"/>
+      </options>
+      <attrs/>
+      <nodeslist>
+       <module type="MULTIPORT_IN" name="Multi-Port-In" pos="132,-1096,2">
+        <options>
+         <collapsed val="false"/>
+         <version val="1"/>
+        </options>
+        <ports>
+         <port type="PEG" idx="0"/>
+        </ports>
+       </module>
+       <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="132,-713,3">
+        <options>
+         <collapsed val="false"/>
+         <version val="1"/>
+        </options>
+        <ports>
+         <port type="IMAGE" idx="0"/>
+        </ports>
+       </module>
+       <module type="READ" name="Watermark" pos="136,-896,5" publishUnderTab="Watermark">
+        <options>
+         <collapsed val="false"/>
+         <version val="1"/>
+        </options>
+        <attrs>
+         <enable3d val="false"/>
+         <faceCamera val="false"/>
+         <cameraAlignment val="NO_CAMERA_ALIGNMENT"/>
+         <offset>
+          <separate val="true"/>
+          <x val="-0.89150036134495547" defaultValue="0"/>
+          <y val="2.6658394252794286" defaultValue="0"/>
+          <z val="0" defaultValue="0"/>
+         </offset>
+         <scale>
+          <separate val="true"/>
+          <inFields val="false"/>
+          <xy val="1" defaultValue="1"/>
+          <x val="0.58105818729508441" defaultValue="1"/>
+          <y val="0.58105818729508441" defaultValue="1"/>
+          <z val="1" defaultValue="1"/>
+         </scale>
+         <rotation>
+          <separate val="false"/>
+          <anglex val="0" defaultValue="0"/>
+          <angley val="0" defaultValue="0"/>
+          <anglez val="0" defaultValue="0"/>
+         </rotation>
+         <angle val="0" defaultValue="0"/>
+         <skew val="0" defaultValue="0"/>
+         <pivot>
+          <x val="6.9019026442544815" defaultValue="0"/>
+          <y val="10.995238844526629" defaultValue="0"/>
+          <z val="0" defaultValue="0"/>
+         </pivot>
+         <splineOffset>
+          <x val="2.8914956048968232" defaultValue="0"/>
+          <y val="4.606365292649488" defaultValue="0"/>
+          <z val="0" defaultValue="0"/>
+         </splineOffset>
+         <ignoreParentPegScaling val="false"/>
+         <disableFieldRendering val="false"/>
+         <depth val="0"/>
+         <enableMinMaxAngle val="false"/>
+         <minAngle val="-360" defaultValue="-360"/>
+         <maxAngle val="360" defaultValue="360"/>
+         <nailForChildren val="false"/>
+         <ikHoldOrientation val="false"/>
+         <ikHoldX val="false"/>
+         <ikHoldY val="false"/>
+         <ikExcluded val="false"/>
+         <ikCanRotate val="true"/>
+         <ikCanTranslateX val="false"/>
+         <ikCanTranslateY val="false"/>
+         <ikBoneX val="0.20000000000000001" defaultValue="0.20000000000000001"/>
+         <ikBoneY val="0" defaultValue="0"/>
+         <ikStiffness val="1" defaultValue="1"/>
+         <drawing>
+          <elementMode val="true"/>
+          <element col="ATV-0BA7BDACEA755E48">
+           <layer/>
+          </element>
+          <customName>
+           <name/>
+           <extension val="tga"/>
+           <fieldChart val="12" defaultValue="12"/>
+          </customName>
+         </drawing>
+         <readOverlay val="true"/>
+         <readLineArt val="true"/>
+         <readColorArt val="true"/>
+         <readUnderlay val="true"/>
+         <overlayArtDrawingMode val="VectorDrawingMode"/>
+         <lineArtDrawingMode val="VectorDrawingMode"/>
+         <colorArtDrawingMode val="VectorDrawingMode"/>
+         <underlayArtDrawingMode val="VectorDrawingMode"/>
+         <pencilLineDeformationPreserveThickness val="false"/>
+         <pencilLineDeformationQuality val="Low"/>
+         <pencilLineDeformationSmooth val="1"/>
+         <pencilLineDeformationFitError val="3" defaultValue="3"/>
+         <readColor val="true"/>
+         <readTransparency val="true"/>
+         <colorTransformation val="Linear"/>
+         <colorSpace val="sRGB"/>
+         <applyMatteToColor val="N"/>
+         <enableLineTexture val="true"/>
+         <antialiasingQuality val="HIGH"/>
+         <antialiasingExponent val="1" defaultValue="1"/>
+         <opacity val="100" defaultValue="100"/>
+         <textureFilter val="NEAREST_FILTERED"/>
+         <adjustPencilThickness val="false"/>
+         <normalLineArtThickness val="true"/>
+         <zoomIndependentLineArtThickness val="zoomIndependent"/>
+         <multLineArtThickness val="1" defaultValue="1"/>
+         <addLineArtThickness val="0" defaultValue="0"/>
+         <minLineArtThickness val="0" defaultValue="0"/>
+         <maxLineArtThickness val="0" defaultValue="0"/>
+         <useDrawingPivot val="APPLY_ON_READ_TRANSFORM"/>
+         <flipHor val="false"/>
+         <flipVert val="false"/>
+         <turnBeforeAlignment val="false"/>
+         <noClipping val="false"/>
+         <xClipFactor val="0"/>
+         <yClipFactor val="0"/>
+         <alignmentRule val="CENTER_FIRST_PAGE"/>
+         <morphingVelo val="0" defaultValue="0"/>
+         <canAnimate val="true"/>
+         <tileHorizontal val="false"/>
+         <tileVertical val="false"/>
+        </attrs>
+       </module>
+       <module type="Turbulence" name="Turbulence_1" pos="126,-843,1" publishUnderTab="Turbulence_1">
+        <options>
+         <collapsed val="true"/>
+         <version val="1"/>
+        </options>
+        <attrs>
+         <fractalType val="FRACTIONAL_BROWNIAN"/>
+         <noiseType val="PERLIN"/>
+         <frequency>
+          <separate val="false"/>
+          <xyfrequency val="9.6000000000000014" defaultValue="0" col="ATV-0BA75484EF720DB8"/>
+          <xfrequency val="0" defaultValue="0"/>
+          <yfrequency val="0" defaultValue="0"/>
+         </frequency>
+         <amount>
+          <separate val="false"/>
+          <xyamount val="26" defaultValue="0" col="ATV-0BA75484EF720DBA"/>
+          <xamount val="0" defaultValue="0"/>
+          <yamount val="0" defaultValue="0"/>
+         </amount>
+         <offset>
+          <separate val="false"/>
+          <xyoffset val="0" defaultValue="0" col="ATV-0BA75484EF720DBC"/>
+          <xoffset val="0" defaultValue="0"/>
+          <yoffset val="0" defaultValue="0"/>
+         </offset>
+         <seed>
+          <separate val="true"/>
+          <xyseed val="0" defaultValue="0"/>
+          <xseed val="10" defaultValue="0" col="ATV-0BA75484EF720DBE"/>
+          <yseed val="0" defaultValue="0" col="ATV-0BA75484EF720DC0"/>
+         </seed>
+         <evolution val="0" defaultValue="0" col="ATV-0BA75484EF720DC2"/>
+         <evolutionFrequency val="0" defaultValue="0" col="ATV-0BA75484EF720DC4"/>
+         <gain val="0.65000000000000002" defaultValue="0.65000000000000002" col="ATV-0BA75484EF720DC6"/>
+         <lacunarity val="2" defaultValue="2" col="ATV-0BA75484EF720DC8"/>
+         <octaves val="1" defaultValue="1" col="ATV-0BA75484EF720DCA"/>
+         <pinning val="false"/>
+         <deformationquality val="Medium"/>
+        </attrs>
+       </module>
+       <module type="PEG" name="Watermark-P" pos="136,-996,4" publishUnderTab="Watermark-P">
+        <options>
+         <collapsed val="false"/>
+         <version val="1"/>
+        </options>
+        <attrs>
+         <enable3d val="false"/>
+         <faceCamera val="false"/>
+         <cameraAlignment val="NO_CAMERA_ALIGNMENT"/>
+         <position>
+          <separate val="false"/>
+          <x val="1.6583293517576618" defaultValue="0"/>
+          <y val="0.80555362300018007" defaultValue="0"/>
+          <z val="0" defaultValue="0"/>
+         </position>
+         <scale>
+          <separate val="true"/>
+          <inFields val="false"/>
+          <xy val="1" defaultValue="1"/>
+          <x val="0.5821780415542902" defaultValue="1"/>
+          <y val="0.44956733179383945" defaultValue="1"/>
+          <z val="1" defaultValue="1"/>
+         </scale>
+         <rotation>
+          <separate val="false"/>
+          <anglex val="0" defaultValue="0"/>
+          <angley val="0" defaultValue="0"/>
+          <anglez val="0" defaultValue="0"/>
+         </rotation>
+         <angle val="0" defaultValue="0"/>
+         <skew val="0" defaultValue="0"/>
+         <pivot>
+          <x val="8.833311996620921" defaultValue="0"/>
+          <y val="13.22219028425018" defaultValue="0"/>
+          <z val="0" defaultValue="0"/>
+         </pivot>
+         <splineOffset>
+          <x val="0" defaultValue="0"/>
+          <y val="0" defaultValue="0"/>
+          <z val="0" defaultValue="0"/>
+         </splineOffset>
+         <ignoreParentPegScaling val="false"/>
+         <disableFieldRendering val="false"/>
+         <depth val="0"/>
+         <enableMinMaxAngle val="false"/>
+         <minAngle val="-360" defaultValue="-360"/>
+         <maxAngle val="360" defaultValue="360"/>
+         <nailForChildren val="false"/>
+         <ikHoldOrientation val="false"/>
+         <ikHoldX val="false"/>
+         <ikHoldY val="false"/>
+         <ikExcluded val="false"/>
+         <ikCanRotate val="true"/>
+         <ikCanTranslateX val="false"/>
+         <ikCanTranslateY val="false"/>
+         <ikBoneX val="0.20000000000000001" defaultValue="0.20000000000000001"/>
+         <ikBoneY val="0" defaultValue="0"/>
+         <ikStiffness val="1" defaultValue="1"/>
+         <groupAtNetworkBuilding val="false"/>
+         <addCompositeToGroup val="true"/>
+        </attrs>
+       </module>
+      </nodeslist>
+      <linkedlist>
+       <link out="Multi-Port-In" in="Watermark-P"/>
+       <link out="Watermark" in="Turbulence_1" inport="0"/>
+       <link out="Turbulence_1" in="Multi-Port-Out"/>
+       <link out="Watermark-P" in="Watermark" inport="0"/>
+      </linkedlist>
+     </group>
     </nodeslist>
     <linkedlist>
      <link out="Colour-Card" in="Composite_1" inport="2"/>
@@ -11421,6 +11678,7 @@
      <link out="Master-P" in="bake_button-option-P_4"/>
      <link out="Master-P" in="bake_button-option-P_5"/>
      <link out="Master-P" in="SleepTimeIndicator-P"/>
+     <link out="Master-P" in="bake_Watermark-P-G"/>
      <link out="Composite" in="Write"/>
      <link out="Composite" in="Composite_1" inport="0"/>
      <link out="Slides-G" in="Composite" inport="5"/>
@@ -11453,6 +11711,7 @@
      <link out="SleepTimeIndicator-P" in="SleepTimeIndicator" inport="0"/>
      <link out="SleepTimeIndicator-P" in="MinuteHand-P"/>
      <link out="MinuteHand-P" in="MinuteHand" inport="0"/>
+     <link out="bake_Watermark-P-G" in="Composite_4" inport="5"/>
     </linkedlist>
    </rootgroup>
    <unconnectedComposite>

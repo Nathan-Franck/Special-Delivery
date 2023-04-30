@@ -30,4 +30,5 @@
  <element id="37" elementName="SleepTimeIndicator" elementFolder="SleepTimeIndicator" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="38" elementName="MinuteHand" elementFolder="MinuteHand" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="39" elementName="WinnerHat" elementFolder="WinnerHat" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="40" elementName="Watermark" elementFolder="Watermark" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
 </elements>
