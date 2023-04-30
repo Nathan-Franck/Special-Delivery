@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlyDemo", "SlyDemo.csproj", "{f5ed8a6a-0083-03b4-be5a-925b652c362a}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{58e6584e-3c34-1fb0-983e-3d94b5df5748}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToonBoom.HarmonySDK", "ToonBoom.HarmonySDK.csproj", "{4183a44e-ab12-3295-5fcb-43f31e845aac}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToonBoom.TBGRenderer", "ToonBoom.TBGRenderer.csproj", "{c3d03a88-60e4-13fe-5e3c-3f3424c18cee}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToonBoom.TBGImporter", "ToonBoom.TBGImporter.csproj", "{f02fe4f3-9eea-9df0-0e33-0cd9b79d25ab}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToonBoom.HarmonySDK.Editor", "ToonBoom.HarmonySDK.Editor.csproj", "{712571d8-ab45-194b-579c-623359cd784c}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{f5ed8a6a-0083-03b4-be5a-925b652c362a}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{f5ed8a6a-0083-03b4-be5a-925b652c362a}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58e6584e-3c34-1fb0-983e-3d94b5df5748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58e6584e-3c34-1fb0-983e-3d94b5df5748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4183a44e-ab12-3295-5fcb-43f31e845aac}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4183a44e-ab12-3295-5fcb-43f31e845aac}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{c3d03a88-60e4-13fe-5e3c-3f3424c18cee}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{c3d03a88-60e4-13fe-5e3c-3f3424c18cee}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{f02fe4f3-9eea-9df0-0e33-0cd9b79d25ab}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{f02fe4f3-9eea-9df0-0e33-0cd9b79d25ab}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{712571d8-ab45-194b-579c-623359cd784c}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{712571d8-ab45-194b-579c-623359cd784c}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
