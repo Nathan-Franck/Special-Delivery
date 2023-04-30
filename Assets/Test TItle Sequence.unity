@@ -275,7 +275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 728f2bf2e4c5f1b4d9e58d869d26ca5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 1803590885}
+  target: {fileID: 1612521897}
   followPosition: 1
   followRotation: 1
   rotationOffset: 0
@@ -400,6 +400,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3deafb1250e850044bd60ce93936ff67, type: 3}
       propertyPath: m_Name
       value: Rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3deafb1250e850044bd60ce93936ff67, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3deafb1250e850044bd60ce93936ff67, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -769,6 +773,11 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 597, y: 520.5}
   m_EdgeRadius: 0
+--- !u!4 &1612521897 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9025121414319910512, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
+  m_PrefabInstance: {fileID: 1803590883}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1803590883
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -814,7 +823,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8755867106536924140, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
       propertyPath: m_WasSpriteAssigned
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8622091377938566587, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -878,11 +887,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -2388470772785184925, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
       propertyPath: m_WasSpriteAssigned
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -1711456866581489947, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
       propertyPath: m_WasSpriteAssigned
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -931376643774006167, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
       propertyPath: m_Size.x
@@ -894,7 +903,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -931376643774006167, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
       propertyPath: m_WasSpriteAssigned
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 135546475992539464, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -942,11 +951,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6018261668771207292, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
       propertyPath: m_WasSpriteAssigned
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6103407251641115103, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
       propertyPath: m_WasSpriteAssigned
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7287263684305758831, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
       propertyPath: m_RootOrder
@@ -1025,11 +1034,6 @@ PrefabInstance:
 --- !u!1 &1803590884 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8047727157107385459, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
-  m_PrefabInstance: {fileID: 1803590883}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1803590885 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -1169245119473847970, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
   m_PrefabInstance: {fileID: 1803590883}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &1803590886
@@ -1461,7 +1465,7 @@ PrefabInstance:
     - target: {fileID: 3118224639301257229, guid: bb2acc673a367044ba2654cad71e5f2b, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 1803590885}
+      objectReference: {fileID: 0}
     - target: {fileID: 3118224639301257229, guid: bb2acc673a367044ba2654cad71e5f2b, type: 3}
       propertyPath: followRotation
       value: 0
