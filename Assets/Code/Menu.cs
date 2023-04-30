@@ -8,6 +8,18 @@ public class Menu : MonoBehaviour
     public string TitleState = "Master-P_menuloop";
     public AudioClip[] TitleSounds;
 
+    public string SettingsState = "Master-P_settings";
+
+    public string LevelSelectState = "Master-P_levelselect";
+
+    public string HUDState = "Master-P_hud";
+
+    public string GameOverState = "Master-P_gameover";
+
+    public string CreditsState = "Master-P_credits";
+
+    
+
     private Animator Animator;
     private AudioSource AudioSource;
     private string PreviousState;
