@@ -241,7 +241,7 @@
   <timelineMarker markerStart="404" markerLength="100" colour="#1E90FFFF" note="" name="Credits"/>
  </timelineMarkers>
  <scenes>
-  <scene name="Top" id="0ba77787b84012f5" nbframes="520" startFrame="251" stopFrame="303">
+  <scene name="Top" id="0ba77787b84012f5" nbframes="520" startFrame="341" stopFrame="356">
    <columns>
     <column type="0" name="Drawing" displayOrder="0" width="100" anonymous="true" id="1">
      <elementSeq exposures="5-80,81-97,408-483,484-500" val="1" id="1"/>
