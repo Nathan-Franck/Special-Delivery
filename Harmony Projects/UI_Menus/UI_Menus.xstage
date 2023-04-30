@@ -3975,7 +3975,7 @@
        <version val="1"/>
       </options>
      </module>
-     <module type="COLOR_CARD" name="Colour-Card" pos="374,-111,11" publishUnderTab="Colour-Card">
+     <module type="COLOR_CARD" name="Colour-Card" pos="374,-111,15" publishUnderTab="Colour-Card">
       <options>
        <collapsed val="true"/>
        <version val="1"/>
@@ -3992,7 +3992,7 @@
        </color>
       </attrs>
      </module>
-     <module type="COMPOSITE" name="Composite_1" pos="552,-44,14" publishUnderTab="Composite_1">
+     <module type="COMPOSITE" name="Composite_1" pos="552,-44,18" publishUnderTab="Composite_1">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -4011,7 +4011,7 @@
        <mergeVector val="false"/>
       </attrs>
      </module>
-     <module type="PEG" name="Master-P" pos="621,-1632,6" publishUnderTab="Master-P">
+     <module type="PEG" name="Master-P" pos="621,-1632,10" publishUnderTab="Master-P">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -4073,7 +4073,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="WRITE" name="Write" pos="1477,-14,15" publishUnderTab="Write">
+     <module type="WRITE" name="Write" pos="1477,-14,19" publishUnderTab="Write">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -4106,7 +4106,7 @@
        <cleanUpPartitionFolders val="true"/>
       </attrs>
      </module>
-     <module type="COMPOSITE" name="Composite" pos="809,-105,19" publishUnderTab="Composite">
+     <module type="COMPOSITE" name="Composite" pos="809,-105,23" publishUnderTab="Composite">
       <options>
        <collapsed val="true"/>
        <version val="1"/>
@@ -5453,7 +5453,7 @@
        <link out="bake_Message-G" in="Composite" inport="6"/>
       </linkedlist>
      </group>
-     <group name="Bird" pos="997,-413,28">
+     <group name="Bird" pos="997,-413,30">
       <options>
        <collapsed val="true"/>
        <subnodeCollapsed val="true"/>
@@ -6813,7 +6813,7 @@
        <link out="WinnerHat-P" in="WinnerHat" inport="0"/>
       </linkedlist>
      </group>
-     <group name="bake_Title-G" pos="1036,-444,30">
+     <group name="bake_Title-G" pos="1036,-444,31">
       <options>
        <collapsed val="true"/>
        <subnodeCollapsed val="false"/>
@@ -7341,7 +7341,7 @@
        <link out="Bone_1" in="Multi-Port-Out"/>
       </linkedlist>
      </group>
-     <module type="PEG" name="Deformation-Title-P" pos="1030,-566,12" publishUnderTab="Deformation-Title-P">
+     <module type="PEG" name="Deformation-Title-P" pos="1030,-566,16" publishUnderTab="Deformation-Title-P">
       <options>
        <collapsed val="true"/>
        <version val="1"/>
@@ -7403,7 +7403,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="PEG" name="Bird-P" pos="1013,-474,27" publishUnderTab="Bird-P">
+     <module type="PEG" name="Bird-P" pos="1013,-474,29" publishUnderTab="Bird-P">
       <options>
        <collapsed val="true"/>
        <version val="1"/>
@@ -7466,7 +7466,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="PEG" name="bake_button-back-P" pos="1244,-443,18" publishUnderTab="bake_button-P_1">
+     <module type="PEG" name="bake_button-back-P" pos="1244,-443,22" publishUnderTab="bake_button-P_1">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -7529,7 +7529,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <group name="bake_button-back" pos="1228,-382,17">
+     <group name="bake_button-back" pos="1228,-382,21">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="false"/>
@@ -7798,7 +7798,7 @@
        <link out="button-back-P" in="button-back" inport="0"/>
       </linkedlist>
      </group>
-     <module type="PEG" name="New_Game_Head" pos="876,-443,25" publishUnderTab="Bird_Head-P-P_1">
+     <module type="PEG" name="New_Game_Head" pos="876,-443,28" publishUnderTab="Bird_Head-P-P_1">
       <options>
        <collapsed val="true"/>
        <version val="1"/>
@@ -7861,7 +7861,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <group name="bake_Bird_Head_1-G" pos="834,-382,22">
+     <group name="bake_Bird_Head_1-G" pos="834,-382,26">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="false"/>
@@ -8060,7 +8060,7 @@
        <link out="RenderPreview" in="Multi-Port-Out"/>
       </linkedlist>
      </group>
-     <module type="PEG" name="bake_button-option-P_2" pos="517,-515,21" publishUnderTab="bake_button-option-P_1">
+     <module type="PEG" name="bake_button-option-P_2" pos="517,-515,25" publishUnderTab="bake_button-option-P_1">
       <options>
        <collapsed val="true"/>
        <version val="1"/>
@@ -8123,7 +8123,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="PEG" name="bake_button-option-P_1" pos="404,-484,24" publishUnderTab="bake_button-option-P_1">
+     <module type="PEG" name="bake_button-option-P_1" pos="404,-484,27" publishUnderTab="bake_button-option-P_1">
       <options>
        <collapsed val="true"/>
        <version val="1"/>
@@ -8186,7 +8186,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <group name="button-option-1_1" pos="405,-423,31">
+     <group name="button-option-1_1" pos="405,-423,5">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="false"/>
@@ -8194,7 +8194,7 @@
       </options>
       <attrs/>
       <nodeslist>
-       <module type="MULTIPORT_IN" name="Multi-Port-In" pos="685,-317,5">
+       <module type="MULTIPORT_IN" name="Multi-Port-In" pos="685,-317,6">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -8203,7 +8203,7 @@
          <port type="PEG" idx="0"/>
         </ports>
        </module>
-       <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="658,-43,6">
+       <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="658,-43,7">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -8212,7 +8212,7 @@
          <port type="IMAGE" idx="0"/>
         </ports>
        </module>
-       <group name="bake_button-option-1" pos="723,-161,1">
+       <group name="bake_button-option-1" pos="723,-161,2">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="false"/>
@@ -8398,7 +8398,7 @@
          <link out="Turbulence" in="Multi-Port-Out"/>
         </linkedlist>
        </group>
-       <module type="READ" name="Check" pos="470,-161,3" publishUnderTab="Check">
+       <module type="READ" name="Check" pos="470,-161,4" publishUnderTab="Check">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -8510,7 +8510,7 @@
          <tileVertical val="false"/>
         </attrs>
        </module>
-       <module type="COMPOSITE" name="Composite_2" pos="661,-104,7" publishUnderTab="Composite_2">
+       <module type="COMPOSITE" name="Composite_2" pos="661,-104,8" publishUnderTab="Composite_2">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -8529,7 +8529,7 @@
          <mergeVector val="false"/>
         </attrs>
        </module>
-       <module type="PEG" name="Check-P" pos="546,-243,4" publishUnderTab="Check-P">
+       <module type="PEG" name="Check-P" pos="546,-243,5" publishUnderTab="Check-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -8592,7 +8592,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="Lock" pos="599,-161,2" publishUnderTab="Drawing">
+       <module type="READ" name="Lock" pos="599,-161,3" publishUnderTab="Drawing">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -8704,19 +8704,32 @@
          <tileVertical val="false"/>
         </attrs>
        </module>
+       <module type="OpenGLPreview" name="RenderPreview" pos="656,-70,1" publishUnderTab="RenderPreview">
+        <options>
+         <collapsed val="false"/>
+         <version val="1"/>
+        </options>
+        <attrs>
+         <refreshstrategy val="current_frame_only"/>
+         <scaling val="use_render_preview"/>
+         <renderstrategy val="render_last"/>
+         <computeallimages/>
+        </attrs>
+       </module>
       </nodeslist>
       <linkedlist>
        <link out="Multi-Port-In" in="Check-P"/>
        <link out="Multi-Port-In" in="bake_button-option-1"/>
        <link out="bake_button-option-1" in="Composite_2" inport="0"/>
        <link out="Check" in="Composite_2" inport="2"/>
-       <link out="Composite_2" in="Multi-Port-Out"/>
+       <link out="Composite_2" in="RenderPreview"/>
        <link out="Check-P" in="Check" inport="0"/>
        <link out="Check-P" in="Lock" inport="0"/>
        <link out="Lock" in="Composite_2" inport="1"/>
+       <link out="RenderPreview" in="Multi-Port-Out"/>
       </linkedlist>
      </group>
-     <module type="PEG" name="bake_button-option-P" pos="306,-453,20" publishUnderTab="bake_button-option-P_1">
+     <module type="PEG" name="bake_button-option-P" pos="306,-453,24" publishUnderTab="bake_button-option-P_1">
       <options>
        <collapsed val="true"/>
        <version val="1"/>
@@ -8779,7 +8792,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <group name="button-option-1" pos="307,-392,29">
+     <group name="button-option-1" pos="307,-392,6">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="false"/>
@@ -8787,7 +8800,7 @@
       </options>
       <attrs/>
       <nodeslist>
-       <module type="MULTIPORT_IN" name="Multi-Port-In" pos="685,-317,5">
+       <module type="MULTIPORT_IN" name="Multi-Port-In" pos="685,-317,9">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -8796,7 +8809,7 @@
          <port type="PEG" idx="0"/>
         </ports>
        </module>
-       <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="658,-43,6">
+       <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="661,-19,2">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -8805,7 +8818,7 @@
          <port type="IMAGE" idx="0"/>
         </ports>
        </module>
-       <group name="bake_button-option-1" pos="723,-161,1">
+       <group name="bake_button-option-1" pos="723,-161,5">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="false"/>
@@ -8991,7 +9004,7 @@
          <link out="Turbulence" in="Multi-Port-Out"/>
         </linkedlist>
        </group>
-       <module type="READ" name="Check" pos="470,-161,3" publishUnderTab="Check">
+       <module type="READ" name="Check" pos="470,-161,7" publishUnderTab="Check">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -9103,7 +9116,7 @@
          <tileVertical val="false"/>
         </attrs>
        </module>
-       <module type="COMPOSITE" name="Composite_2" pos="661,-104,7" publishUnderTab="Composite_2">
+       <module type="COMPOSITE" name="Composite_2" pos="661,-104,4" publishUnderTab="Composite_2">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -9122,7 +9135,7 @@
          <mergeVector val="false"/>
         </attrs>
        </module>
-       <module type="PEG" name="Check-P" pos="546,-243,4" publishUnderTab="Check-P">
+       <module type="PEG" name="Check-P" pos="546,-243,8" publishUnderTab="Check-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -9185,7 +9198,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="Lock" pos="599,-161,2" publishUnderTab="Drawing">
+       <module type="READ" name="Lock" pos="599,-161,6" publishUnderTab="Drawing">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -9297,19 +9310,32 @@
          <tileVertical val="false"/>
         </attrs>
        </module>
+       <module type="OpenGLPreview" name="RenderPreview" pos="656,-57,1" publishUnderTab="RenderPreview">
+        <options>
+         <collapsed val="false"/>
+         <version val="1"/>
+        </options>
+        <attrs>
+         <refreshstrategy val="current_frame_only"/>
+         <scaling val="use_render_preview"/>
+         <renderstrategy val="render_last"/>
+         <computeallimages/>
+        </attrs>
+       </module>
       </nodeslist>
       <linkedlist>
        <link out="Multi-Port-In" in="Check-P"/>
        <link out="Multi-Port-In" in="bake_button-option-1"/>
        <link out="bake_button-option-1" in="Composite_2" inport="0"/>
        <link out="Check" in="Composite_2" inport="2"/>
-       <link out="Composite_2" in="Multi-Port-Out"/>
+       <link out="Composite_2" in="RenderPreview"/>
        <link out="Check-P" in="Check" inport="0"/>
        <link out="Check-P" in="Lock" inport="0"/>
        <link out="Lock" in="Composite_2" inport="1"/>
+       <link out="RenderPreview" in="Multi-Port-Out"/>
       </linkedlist>
      </group>
-     <module type="COMPOSITE" name="Composite_4" pos="470,-362,10" publishUnderTab="Composite_2">
+     <module type="COMPOSITE" name="Composite_4" pos="470,-362,14" publishUnderTab="Composite_2">
       <options>
        <collapsed val="true"/>
        <version val="1"/>
@@ -9328,7 +9354,7 @@
        <mergeVector val="false"/>
       </attrs>
      </module>
-     <group name="button-option-1_2" pos="518,-454,26">
+     <group name="button-option-1_2" pos="518,-454,4">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="false"/>
@@ -9336,7 +9362,7 @@
       </options>
       <attrs/>
       <nodeslist>
-       <module type="MULTIPORT_IN" name="Multi-Port-In" pos="685,-317,5">
+       <module type="MULTIPORT_IN" name="Multi-Port-In" pos="685,-317,6">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -9345,7 +9371,7 @@
          <port type="PEG" idx="0"/>
         </ports>
        </module>
-       <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="658,-43,6">
+       <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="658,-43,7">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -9354,7 +9380,7 @@
          <port type="IMAGE" idx="0"/>
         </ports>
        </module>
-       <group name="bake_button-option-1" pos="723,-161,1">
+       <group name="bake_button-option-1" pos="723,-161,2">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="false"/>
@@ -9540,7 +9566,7 @@
          <link out="Turbulence" in="Multi-Port-Out"/>
         </linkedlist>
        </group>
-       <module type="READ" name="Check" pos="470,-161,3" publishUnderTab="Check">
+       <module type="READ" name="Check" pos="470,-161,4" publishUnderTab="Check">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -9652,7 +9678,7 @@
          <tileVertical val="false"/>
         </attrs>
        </module>
-       <module type="COMPOSITE" name="Composite_2" pos="661,-104,7" publishUnderTab="Composite_2">
+       <module type="COMPOSITE" name="Composite_2" pos="661,-104,8" publishUnderTab="Composite_2">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -9671,7 +9697,7 @@
          <mergeVector val="false"/>
         </attrs>
        </module>
-       <module type="PEG" name="Check-P" pos="546,-243,4" publishUnderTab="Check-P">
+       <module type="PEG" name="Check-P" pos="546,-243,5" publishUnderTab="Check-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -9734,7 +9760,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="Lock" pos="599,-161,2" publishUnderTab="Drawing">
+       <module type="READ" name="Lock" pos="599,-161,3" publishUnderTab="Drawing">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -9846,19 +9872,32 @@
          <tileVertical val="false"/>
         </attrs>
        </module>
+       <module type="OpenGLPreview" name="RenderPreview" pos="656,-73,1" publishUnderTab="RenderPreview">
+        <options>
+         <collapsed val="false"/>
+         <version val="1"/>
+        </options>
+        <attrs>
+         <refreshstrategy val="current_frame_only"/>
+         <scaling val="use_render_preview"/>
+         <renderstrategy val="render_last"/>
+         <computeallimages/>
+        </attrs>
+       </module>
       </nodeslist>
       <linkedlist>
        <link out="Multi-Port-In" in="Check-P"/>
        <link out="Multi-Port-In" in="bake_button-option-1"/>
        <link out="bake_button-option-1" in="Composite_2" inport="0"/>
        <link out="Check" in="Composite_2" inport="2"/>
-       <link out="Composite_2" in="Multi-Port-Out"/>
+       <link out="Composite_2" in="RenderPreview"/>
        <link out="Check-P" in="Check" inport="0"/>
        <link out="Check-P" in="Lock" inport="0"/>
        <link out="Lock" in="Composite_2" inport="1"/>
+       <link out="RenderPreview" in="Multi-Port-Out"/>
       </linkedlist>
      </group>
-     <module type="PEG" name="bake_button-option-P_4" pos="630,-484,16" publishUnderTab="bake_button-option-P_2">
+     <module type="PEG" name="bake_button-option-P_4" pos="630,-484,20" publishUnderTab="bake_button-option-P_2">
       <options>
        <collapsed val="true"/>
        <version val="1"/>
@@ -9921,7 +9960,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <group name="button-option-1_3" pos="632,-423,5">
+     <group name="button-option-1_3" pos="632,-423,1">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="false"/>
@@ -9929,7 +9968,7 @@
       </options>
       <attrs/>
       <nodeslist>
-       <module type="MULTIPORT_IN" name="Multi-Port-In" pos="685,-317,5">
+       <module type="MULTIPORT_IN" name="Multi-Port-In" pos="685,-317,6">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -9938,7 +9977,7 @@
          <port type="PEG" idx="0"/>
         </ports>
        </module>
-       <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="658,-43,6">
+       <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="658,-43,7">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -9947,7 +9986,7 @@
          <port type="IMAGE" idx="0"/>
         </ports>
        </module>
-       <group name="bake_button-option-1" pos="723,-161,1">
+       <group name="bake_button-option-1" pos="723,-161,2">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="false"/>
@@ -10133,7 +10172,7 @@
          <link out="Turbulence" in="Multi-Port-Out"/>
         </linkedlist>
        </group>
-       <module type="READ" name="Check" pos="470,-161,3" publishUnderTab="Check">
+       <module type="READ" name="Check" pos="470,-161,4" publishUnderTab="Check">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -10245,7 +10284,7 @@
          <tileVertical val="false"/>
         </attrs>
        </module>
-       <module type="COMPOSITE" name="Composite_2" pos="661,-104,7" publishUnderTab="Composite_2">
+       <module type="COMPOSITE" name="Composite_2" pos="661,-104,8" publishUnderTab="Composite_2">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -10264,7 +10303,7 @@
          <mergeVector val="false"/>
         </attrs>
        </module>
-       <module type="PEG" name="Check-P" pos="546,-243,4" publishUnderTab="Check-P">
+       <module type="PEG" name="Check-P" pos="546,-243,5" publishUnderTab="Check-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -10327,7 +10366,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="Lock" pos="599,-161,2" publishUnderTab="Drawing">
+       <module type="READ" name="Lock" pos="599,-161,3" publishUnderTab="Drawing">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -10439,19 +10478,32 @@
          <tileVertical val="false"/>
         </attrs>
        </module>
+       <module type="OpenGLPreview" name="RenderPreview" pos="656,-71,1" publishUnderTab="RenderPreview">
+        <options>
+         <collapsed val="false"/>
+         <version val="1"/>
+        </options>
+        <attrs>
+         <refreshstrategy val="current_frame_only"/>
+         <scaling val="use_render_preview"/>
+         <renderstrategy val="render_last"/>
+         <computeallimages/>
+        </attrs>
+       </module>
       </nodeslist>
       <linkedlist>
        <link out="Multi-Port-In" in="Check-P"/>
        <link out="Multi-Port-In" in="bake_button-option-1"/>
        <link out="bake_button-option-1" in="Composite_2" inport="0"/>
        <link out="Check" in="Composite_2" inport="2"/>
-       <link out="Composite_2" in="Multi-Port-Out"/>
+       <link out="Composite_2" in="RenderPreview"/>
        <link out="Check-P" in="Check" inport="0"/>
        <link out="Check-P" in="Lock" inport="0"/>
        <link out="Lock" in="Composite_2" inport="1"/>
+       <link out="RenderPreview" in="Multi-Port-Out"/>
       </linkedlist>
      </group>
-     <module type="PEG" name="bake_button-option-P_5" pos="438,-567,13" publishUnderTab="bake_button-option-P_2">
+     <module type="PEG" name="bake_button-option-P_5" pos="438,-567,17" publishUnderTab="bake_button-option-P_2">
       <options>
        <collapsed val="true"/>
        <version val="1"/>
@@ -10514,7 +10566,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <group name="button-option-1_4" pos="431,-523,23">
+     <group name="button-option-1_4" pos="431,-523,3">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="false"/>
@@ -10522,7 +10574,7 @@
       </options>
       <attrs/>
       <nodeslist>
-       <module type="MULTIPORT_IN" name="Multi-Port-In" pos="685,-317,5">
+       <module type="MULTIPORT_IN" name="Multi-Port-In" pos="685,-317,6">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -10531,7 +10583,7 @@
          <port type="PEG" idx="0"/>
         </ports>
        </module>
-       <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="658,-43,6">
+       <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="658,-43,7">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -10540,7 +10592,7 @@
          <port type="IMAGE" idx="0"/>
         </ports>
        </module>
-       <group name="bake_button-option-1" pos="723,-161,1">
+       <group name="bake_button-option-1" pos="723,-161,2">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="false"/>
@@ -10726,7 +10778,7 @@
          <link out="Turbulence" in="Multi-Port-Out"/>
         </linkedlist>
        </group>
-       <module type="READ" name="Check" pos="470,-161,3" publishUnderTab="Check">
+       <module type="READ" name="Check" pos="470,-161,4" publishUnderTab="Check">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -10838,7 +10890,7 @@
          <tileVertical val="false"/>
         </attrs>
        </module>
-       <module type="COMPOSITE" name="Composite_2" pos="661,-104,7" publishUnderTab="Composite_2">
+       <module type="COMPOSITE" name="Composite_2" pos="661,-104,8" publishUnderTab="Composite_2">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -10857,7 +10909,7 @@
          <mergeVector val="false"/>
         </attrs>
        </module>
-       <module type="PEG" name="Check-P" pos="546,-243,4" publishUnderTab="Check-P">
+       <module type="PEG" name="Check-P" pos="546,-243,5" publishUnderTab="Check-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -10920,7 +10972,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="Lock" pos="599,-161,2" publishUnderTab="Drawing">
+       <module type="READ" name="Lock" pos="599,-161,3" publishUnderTab="Drawing">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -11032,19 +11084,32 @@
          <tileVertical val="false"/>
         </attrs>
        </module>
+       <module type="OpenGLPreview" name="RenderPreview" pos="656,-74,1" publishUnderTab="RenderPreview">
+        <options>
+         <collapsed val="false"/>
+         <version val="1"/>
+        </options>
+        <attrs>
+         <refreshstrategy val="current_frame_only"/>
+         <scaling val="use_render_preview"/>
+         <renderstrategy val="render_last"/>
+         <computeallimages/>
+        </attrs>
+       </module>
       </nodeslist>
       <linkedlist>
        <link out="Multi-Port-In" in="Check-P"/>
        <link out="Multi-Port-In" in="bake_button-option-1"/>
        <link out="bake_button-option-1" in="Composite_2" inport="0"/>
        <link out="Check" in="Composite_2" inport="2"/>
-       <link out="Composite_2" in="Multi-Port-Out"/>
+       <link out="Composite_2" in="RenderPreview"/>
        <link out="Check-P" in="Check" inport="0"/>
        <link out="Check-P" in="Lock" inport="0"/>
        <link out="Lock" in="Composite_2" inport="1"/>
+       <link out="RenderPreview" in="Multi-Port-Out"/>
       </linkedlist>
      </group>
-     <module type="READ" name="SleepTimeIndicator" pos="-2,-674,3" publishUnderTab="SleepTimeIndicator">
+     <module type="READ" name="SleepTimeIndicator" pos="-2,-674,8" publishUnderTab="SleepTimeIndicator">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -11156,7 +11221,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="READ" name="MinuteHand" pos="-148,-674,7" publishUnderTab="MinuteHand">
+     <module type="READ" name="MinuteHand" pos="-148,-674,11" publishUnderTab="MinuteHand">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -11268,7 +11333,7 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
-     <module type="COMPOSITE" name="Composite_2" pos="-39,-576,8" publishUnderTab="Composite_2">
+     <module type="COMPOSITE" name="Composite_2" pos="-39,-576,12" publishUnderTab="Composite_2">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -11287,7 +11352,7 @@
        <mergeVector val="false"/>
       </attrs>
      </module>
-     <module type="PEG" name="SleepTimeIndicator-P" pos="-66,-788,4" publishUnderTab="SleepTimeIndicator-P">
+     <module type="PEG" name="SleepTimeIndicator-P" pos="-66,-788,9" publishUnderTab="SleepTimeIndicator-P">
       <options>
        <collapsed val="true"/>
        <version val="1"/>
@@ -11350,7 +11415,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <module type="PEG" name="MinuteHand-P" pos="-133,-738,9" publishUnderTab="MinuteHand-P">
+     <module type="PEG" name="MinuteHand-P" pos="-133,-738,13" publishUnderTab="MinuteHand-P">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -11413,7 +11478,7 @@
        <addCompositeToGroup val="true"/>
       </attrs>
      </module>
-     <group name="bake_Watermark-P-G" pos="133,-903,1">
+     <group name="bake_Watermark-P-G" pos="133,-903,7">
       <options>
        <collapsed val="false"/>
        <subnodeCollapsed val="true"/>
