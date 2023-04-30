@@ -20,6 +20,12 @@ public class Menu : MonoBehaviour
     }
     void Update()
     {
+        SuperWahoo();
+        TouchInput();
+    }
+
+    void SuperWahoo()
+    {
         var currentState = Animator.GetCurrentAnimatorStateInfo(0).ToString();
 
         // When we get past the title cards, play the "SUPER SPECIAL DELIVERY" sound effect.
@@ -30,6 +36,28 @@ public class Menu : MonoBehaviour
         }
 
         PreviousState = currentState;
-        
+    }
+
+    public GameObject Settings;
+    public GameObject Back;
+
+    void TouchInput()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            RaycastHit2D hit = Physics2D.GetRayIntersection(ray, Mathf.Infinity);
+            if (hit.collider != null)
+            {
+                if (hit.collider.transform == Settings.transform)
+                {
+                    Animator.SetTrigger("SettingsClicked");
+                }
+                else if (hit.collider.transform == Back.transform)
+                {
+                    Animator.SetTrigger("BackClicked");
+                }
+            }
+        }
     }
 }
