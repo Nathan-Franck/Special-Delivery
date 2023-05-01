@@ -1,0 +1,24 @@
+<!DOCTYPE SceneVersion>
+<SceneVersion VersionName="Bird" ID="1" Modified="2023-04-30 19:37:07">
+ <Element ID="2" Folder="Bird_Foot_2" Name="Bird_Foot_2">
+  <Drawing Version="1" Key="" Name="1"/>
+ </Element>
+ <Element ID="3" Folder="Bird_Wing" Name="Bird_Wing">
+  <Drawing Version="1" Key="" Name="1"/>
+ </Element>
+ <Element ID="4" Folder="Bird_Head" Name="Bird_Head">
+  <Drawing Version="1" Key="" Name="1"/>
+ </Element>
+ <Element ID="5" Folder="Bird_Body" Name="Bird_Body">
+  <Drawing Version="1" Key="" Name="1"/>
+ </Element>
+ <Element ID="6" Folder="Tail" Name="Tail">
+  <Drawing Version="1" Key="" Name="1"/>
+ </Element>
+ <Element ID="7" Folder="WinnerHat" Name="WinnerHat">
+  <Drawing Version="1" Key="" Name="1"/>
+ </Element>
+ <Element ID="8" Folder="Baby_Blanket" Name="Baby_Blanket">
+  <Drawing Version="1" Key="" Name="1"/>
+ </Element>
+</SceneVersion>

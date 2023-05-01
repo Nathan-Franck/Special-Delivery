@@ -1,0 +1,6 @@
+ToonBoomAnimationInc PaletteList 1
+palette-library/Bird LINK "C:/Projects/Coding/Special-Delivery/Harmony Projects/Bird/palette-library/Bird.plt"
+palette-library/Bird_pencil_texture LINK "C:/Projects/Coding/Special-Delivery/Harmony Projects/Bird/palette-library/Bird_pencil_texture.plt"
+"palette-library/UI_Menus (Cloned for Export)_12" LINK "C:/Projects/Coding/Special-Delivery/Harmony Projects/Bird/palette-library/UI_Menus (Cloned for Export)_12.plt"
+palette-library/UI_Menus LINK "C:/Projects/Coding/Special-Delivery/Harmony Projects/Bird/palette-library/UI_Menus.plt"
+palette-library/UI_Menus_pencil_texture LINK "C:/Projects/Coding/Special-Delivery/Harmony Projects/Bird/palette-library/UI_Menus_pencil_texture.plt"

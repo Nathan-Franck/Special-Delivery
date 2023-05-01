@@ -2,17 +2,33 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Animator)), RequireComponent(typeof(AudioSource))]
 public class UIGame : MonoBehaviour
 {
     public GameSettings GameSettings;
 
+    [System.Serializable]
+    public class InGameBeakPhys
+    {
+        public Transform BeakHolderAnchor;
+        public FollowTransform2D BlanketTop;
+        public FollowTransform2D BlanketBottom;
+        public FollowTransform2D PhysicsTop;
+        public Transform PhysicsBottom;
+    }
+    public InGameBeakPhys InGameBeakPhysRef;
+
     public Transform BeakHolderAnchor;
     public FollowTransform2D BlanketTop;
     public FollowTransform2D BlanketBottom;
     public FollowTransform2D PhysicsTop;
     public Transform PhysicsBottom;
+
+    public Camera Camera3D;
+    public GameObject BirdPrefab;
+    public GameObject BassinetGoal;
 
     public GameObject PartyHat;
     public GameObject BackButtonRef;
@@ -61,12 +77,40 @@ public class UIGame : MonoBehaviour
     public bool[] LevelComplete = new bool[LevelCount];
     public bool PlayMusic = true;
 
+    [System.Serializable]
+    public class GameState
+    {
+        public string CurrentScene;
+        public Transform[] Obstacles;
+        public float TimeRemaining = 30;
+        public bool BabyDelivered = false;
+    }
+
+    public int CurrentLevel = 0;
+
+    public GameState DefaultGameState = new GameState();
+
+    public GameState TheGameState = new GameState();
+
 
     // Update is called once per frame
     void Update()
     {
         ModelToView();
         ViewToModel();
+
+        // Game Play!
+        if (UIState == Animator.StringToHash(GameSettings.GameState))
+        {
+            // Update the game state
+            TheGameState.TimeRemaining -= Time.deltaTime;
+
+            // If the game is over, go to the game over screen
+            if (TheGameState.TimeRemaining <= 0)
+            {
+                Animator.SetTrigger(GameSettings.Trigger.GameFail);
+            }
+        }
     }
 
     public void ViewToModel()
@@ -153,6 +197,7 @@ public class UIGame : MonoBehaviour
                         // Otherwise, load the level!
                         Animator.SetTrigger(GameSettings.Trigger.ClickLevel);
                         // Animator.SetInteger("Level", i);
+                        CurrentLevel = i;
                     }
                 }
             }
@@ -178,6 +223,17 @@ public class UIGame : MonoBehaviour
             if (UIState == Animator.StringToHash(GameSettings.LevelSelectState))
             {
                 LevelHydrate();
+            }
+
+            if (UIState == Animator.StringToHash(GameSettings.GameState))
+            {
+                // Reset game state
+                SceneManager.LoadScene(GameSettings.Levels[CurrentLevel].SceneName);
+                TheGameState = DefaultGameState;
+                TheGameState.Obstacles = GameObject
+                    .FindGameObjectsWithTag(GameSettings.Tweaks.ObstacleTag)
+                    .Select(x => x.transform)
+                    .ToArray();
             }
         }
 
