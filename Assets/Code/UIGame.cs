@@ -61,6 +61,11 @@ public class UIGame : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        ModelToView();
+    }
+
+    public void ModelToView()
+    {
         // Get current state from main layer of Animator as a string
         UIState = Animator
             .GetCurrentAnimatorStateInfo(0)
@@ -91,7 +96,6 @@ public class UIGame : MonoBehaviour
             SettingsHydrate();
         }
 
-        // TestHydrate();
         LastUIState = UIState;
     }
 
@@ -132,29 +136,5 @@ public class UIGame : MonoBehaviour
 
         // First check enabled if Music is enabled
         ChecksRef[0].SetActive(PlayMusic);
-    }
-
-    private int TestEnable = 0;
-
-    void TestHydrate()
-    {
-        // Every 10 frames, disable previous check or lock, increment the test, enable new check or lock
-        var thingsToEnable = LocksRef.Concat(ChecksRef).ToArray();
-        if (Time.frameCount % 10 == 0)
-        {
-            thingsToEnable[TestEnable].SetActive(false);
-            TestEnable = (TestEnable + 1) % thingsToEnable.Length;
-            thingsToEnable[TestEnable].SetActive(true);
-        }
-
-        //Enable hat every 5 seconds, then disable for 5 seconds
-        if (Time.frameCount % 300 == 0)
-        {
-            PartyHat.SetActive(true);
-        }
-        if (Time.frameCount % 600 == 0)
-        {
-            PartyHat.SetActive(false);
-        }
     }
 }
