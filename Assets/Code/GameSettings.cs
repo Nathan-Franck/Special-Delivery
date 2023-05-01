@@ -5,6 +5,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "GameSettings", menuName = "GameSettings", order = 1)]
 public class GameSettings : ScriptableObject
 {
+    public string MenuState = "Master-P_menuloop";
     public string LevelSelectState = "Master-P_levelselect";
     public string SettingsState = "Master-P_settings";
     public string InGameState = "Master-P_gamestatesleeping";

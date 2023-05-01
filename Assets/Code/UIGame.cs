@@ -43,6 +43,7 @@ public class UIGame : MonoBehaviour
         }
 
         // Assign 2D box colliders to buttons
+        BackButtonRef.AddComponent<BoxCollider2D>();
         foreach (GameObject buttonRef in ButtonsRef)
         {
             buttonRef.AddComponent<BoxCollider2D>();
@@ -79,30 +80,55 @@ public class UIGame : MonoBehaviour
         Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
         // Get the collider at the mouse position
-        Collider2D collider = Physics2D.OverlapPoint(mousePosition);
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        var collided = Physics2D.GetRayIntersection(ray, Mathf.Infinity).collider.gameObject;
+
+        Debug.Log("Clicked " + collided.name);
 
         // Back button (all the time!)
-        if (collider == BackButtonRef.GetComponent<Collider2D>())
+        if (collided == BackButtonRef)
         {
+            Debug.Log("Clicked back");
             Animator.SetTrigger(GameSettings.Trigger.ClickBack);
+        }
+
+        // Main Menu
+        if (UIState == Animator.StringToHash(GameSettings.MenuState))
+        {
+            Debug.Log("Clicked main menu");
+            // First button goes to level select
+            if (collided == ButtonsRef[0])
+            {
+                Debug.Log("Clicked level select");
+                Animator.SetTrigger(GameSettings.Trigger.ClickNewGame);
+            }
+            // Second button goes to settings
+            else if (collided == ButtonsRef[1])
+            {
+                Debug.Log("Clicked settings");
+                Animator.SetTrigger(GameSettings.Trigger.ClickSettings);
+            }
         }
 
         // Settings
         if (UIState == Animator.StringToHash(GameSettings.SettingsState))
         {
+            Debug.Log("Clicked settings");
             // First button toggles music!
-            if (collider == ButtonsRef[0].GetComponent<Collider2D>())
+            if (collided == ButtonsRef[0])
             {
                 PlayMusic = !PlayMusic;
                 ChecksRef[0].SetActive(PlayMusic);
                 AudioSource.enabled = PlayMusic;
             }
             // Second button plays FX
-            else if (collider == ButtonsRef[1].GetComponent<Collider2D>())
+            else if (collided == ButtonsRef[1])
             {
                 var fx = Instantiate(FxPrefab, Vector3.zero, Quaternion.identity);
                 // Pick random fx trigger from settings
-                var fxTrigger = GameSettings.FXTrigger.GetType().GetFields().Select(f => f.GetValue(GameSettings.FXTrigger)).OrderBy(x => Random.value).First();
+                var fxTrigger = GameSettings.FXTrigger.GetType().GetFields()
+                    .Select(f => f.GetValue(GameSettings.FXTrigger))
+                    .OrderBy(x => Random.value).First();
                 fx.GetComponent<Animator>().SetTrigger(fxTrigger.ToString());
                 // Despawn after 1 second
                 Destroy(fx, 1f);
@@ -115,7 +141,7 @@ public class UIGame : MonoBehaviour
             // Check if the collider is one of the level buttons
             for (int i = 0; i < LevelCount; i++)
             {
-                if (collider == ButtonsRef[i].GetComponent<Collider2D>())
+                if (collided == ButtonsRef[i])
                 {
                     // If the level is locked, play the frustration animation
                     if (IsLocked(i))
@@ -146,6 +172,8 @@ public class UIGame : MonoBehaviour
         {
             // State changed!
             Debug.Log("State changed to " + UIState);
+
+            UpdateButtonBounds();
 
             if (UIState == Animator.StringToHash(GameSettings.LevelSelectState))
             {
@@ -191,6 +219,7 @@ public class UIGame : MonoBehaviour
 
     void SettingsHydrate()
     {
+
         // Disable locks.
         for (int i = 0; i < LevelCount; i++)
         {
@@ -205,5 +234,25 @@ public class UIGame : MonoBehaviour
 
         // First check enabled if Music is enabled
         ChecksRef[0].SetActive(PlayMusic);
+    }
+
+    void UpdateButtonBounds()
+    {
+        // Resize collider bounds on buttons.
+        UpdateButtonBounds(BackButtonRef);
+        foreach (GameObject buttonRef in ButtonsRef)
+        {
+            UpdateButtonBounds(buttonRef);
+        }
+    }
+    void UpdateButtonBounds(GameObject buttonRef)
+    {
+        var collider = buttonRef.GetComponent<BoxCollider2D>();
+        var sprite = buttonRef.GetComponent<SpriteRenderer>().sprite;
+        if (sprite == null)
+            return;
+        var bounds = sprite.bounds;
+        collider.size = bounds.size;
+        collider.offset = bounds.center;
     }
 }

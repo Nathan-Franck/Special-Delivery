@@ -814,6 +814,7 @@ MonoBehaviour:
   PhysicsTop: {fileID: 268789618}
   PhysicsBottom: {fileID: 2086985399}
   PartyHat: {fileID: 1309079290}
+  BackButtonRef: {fileID: 1241405827}
   ButtonsRef:
   - {fileID: 1417739687}
   - {fileID: 1713436388}
@@ -832,9 +833,11 @@ MonoBehaviour:
   - {fileID: 972564643}
   - {fileID: 859127981}
   - {fileID: 917446506}
+  FxPrefab: {fileID: 0}
   UIState: 0
   LastUIState: 0
   LevelComplete: 0000000000
+  PlayMusic: 1
 --- !u!82 &1209459903
 AudioSource:
   m_ObjectHideFlags: 0
@@ -931,6 +934,11 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &1241405827 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 333175023031356215, guid: 7317e4e8a1ec6a84b9234466769fe4d2, type: 3}
+  m_PrefabInstance: {fileID: 1571280884}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1285469196 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1206883639099682638, guid: 7317e4e8a1ec6a84b9234466769fe4d2, type: 3}
