@@ -15,9 +15,12 @@ public class UIGame : MonoBehaviour
     public Transform PhysicsBottom;
 
     public GameObject PartyHat;
+    public GameObject BackButtonRef;
     public GameObject[] ButtonsRef;
     public GameObject[] ChecksRef;
     public GameObject[] LocksRef;
+
+    public GameObject FxPrefab;
 
     private Animator Animator;
     private AudioSource AudioSource;
@@ -62,6 +65,72 @@ public class UIGame : MonoBehaviour
     void Update()
     {
         ModelToView();
+        ViewToModel();
+    }
+
+    public void ViewToModel()
+    {
+        if (!Input.GetMouseButtonDown(0))
+        {
+            return;
+        }
+
+        // Get the mouse position in world space
+        Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+        // Get the collider at the mouse position
+        Collider2D collider = Physics2D.OverlapPoint(mousePosition);
+
+        // Back button (all the time!)
+        if (collider == BackButtonRef.GetComponent<Collider2D>())
+        {
+            Animator.SetTrigger(GameSettings.Trigger.ClickBack);
+        }
+
+        // Settings
+        if (UIState == Animator.StringToHash(GameSettings.SettingsState))
+        {
+            // First button toggles music!
+            if (collider == ButtonsRef[0].GetComponent<Collider2D>())
+            {
+                PlayMusic = !PlayMusic;
+                ChecksRef[0].SetActive(PlayMusic);
+                AudioSource.enabled = PlayMusic;
+            }
+            // Second button plays FX
+            else if (collider == ButtonsRef[1].GetComponent<Collider2D>())
+            {
+                var fx = Instantiate(FxPrefab, Vector3.zero, Quaternion.identity);
+                // Pick random fx trigger from settings
+                var fxTrigger = GameSettings.FXTrigger.GetType().GetFields().Select(f => f.GetValue(GameSettings.FXTrigger)).OrderBy(x => Random.value).First();
+                fx.GetComponent<Animator>().SetTrigger(fxTrigger.ToString());
+                // Despawn after 1 second
+                Destroy(fx, 1f);
+            }
+        }
+
+        // Level Select
+        if (UIState == Animator.StringToHash(GameSettings.LevelSelectState))
+        {
+            // Check if the collider is one of the level buttons
+            for (int i = 0; i < LevelCount; i++)
+            {
+                if (collider == ButtonsRef[i].GetComponent<Collider2D>())
+                {
+                    // If the level is locked, play the frustration animation
+                    if (IsLocked(i))
+                    {
+                        Animator.SetTrigger(GameSettings.FXTrigger.FrustrationVessle);
+                    }
+                    else
+                    {
+                        // Otherwise, load the level!
+                        Animator.SetTrigger(GameSettings.Trigger.ClickLevel);
+                        // Animator.SetInteger("Level", i);
+                    }
+                }
+            }
+        }
     }
 
     public void ModelToView()

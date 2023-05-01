@@ -21,5 +21,14 @@ public class GameSettings : ScriptableObject
         public string GameComplete = "GameComplete";
     }
 
+    [System.Serializable]
+    public class FXTriggers
+    {   
+        public string MusicNote = "MusicNote";
+        public string ExclamationPoint = "ExclamationPoint";
+        public string FrustrationVessle = "FrustrationVessle";
+    }
+
     public Triggers Trigger = new Triggers();
+    public FXTriggers FXTrigger = new FXTriggers();
 }
