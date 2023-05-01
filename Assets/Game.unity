@@ -807,6 +807,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd00ff9b9a49514da9282d84e13fdfb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GameSettings: {fileID: 11400000, guid: 5b727160477dd224298e57446c4a00c5, type: 2}
   BeakHolderAnchor: {fileID: 597079102}
   BlanketTop: {fileID: 1524829825}
   BlanketBottom: {fileID: 1285469198}
@@ -831,6 +832,9 @@ MonoBehaviour:
   - {fileID: 972564643}
   - {fileID: 859127981}
   - {fileID: 917446506}
+  UIState: 0
+  LastUIState: 0
+  LevelComplete: 0000000000
 --- !u!82 &1209459903
 AudioSource:
   m_ObjectHideFlags: 0
