@@ -44,12 +44,6 @@ SpriteAtlas:
     secondaryTextureSettings: {}
     variantMultiplier: 1
     packables:
-    - {fileID: -3662882716993598699, guid: c763e78140cd02f499d48bf5f3cc55c9, type: 3}
-    - {fileID: 7119753779836295895, guid: c763e78140cd02f499d48bf5f3cc55c9, type: 3}
-    - {fileID: 8051428776759118029, guid: c763e78140cd02f499d48bf5f3cc55c9, type: 3}
-    - {fileID: 3073401101260663757, guid: c763e78140cd02f499d48bf5f3cc55c9, type: 3}
-    - {fileID: -8375188052644462182, guid: c763e78140cd02f499d48bf5f3cc55c9, type: 3}
-    - {fileID: -8004117611295031307, guid: c763e78140cd02f499d48bf5f3cc55c9, type: 3}
     - {fileID: -8004117611295031307, guid: a8608ca714201044f931120e9dbff37e, type: 3}
     - {fileID: -8375188052644462182, guid: a8608ca714201044f931120e9dbff37e, type: 3}
     - {fileID: 3073401101260663757, guid: a8608ca714201044f931120e9dbff37e, type: 3}
@@ -60,8 +54,20 @@ SpriteAtlas:
     isAtlasV2: 0
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
-  m_PackedSprites: []
-  m_PackedSpriteNamesToIndex: []
+  m_PackedSprites:
+  - {fileID: -8004117611295031307, guid: a8608ca714201044f931120e9dbff37e, type: 3}
+  - {fileID: -8375188052644462182, guid: a8608ca714201044f931120e9dbff37e, type: 3}
+  - {fileID: 3073401101260663757, guid: a8608ca714201044f931120e9dbff37e, type: 3}
+  - {fileID: 8051428776759118029, guid: a8608ca714201044f931120e9dbff37e, type: 3}
+  - {fileID: 7119753779836295895, guid: a8608ca714201044f931120e9dbff37e, type: 3}
+  - {fileID: -3662882716993598699, guid: a8608ca714201044f931120e9dbff37e, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - FullHD-UI_Transitions-Gear_Rough_0.png
+  - FullHD-UI_Transitions-Gear_Rough_1_0.png
+  - HD-UI_Transitions-Gear_Rough_0.png
+  - HD-UI_Transitions-Gear_Rough_1_0.png
+  - QuadHD-UI_Transitions-Gear_Rough_0.png
+  - QuadHD-UI_Transitions-Gear_Rough_1_0.png
   m_RenderDataMap: {}
   m_Tag: UI_Transitions Atlas
   m_IsVariant: 0

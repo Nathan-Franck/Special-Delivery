@@ -44,8 +44,6 @@ SpriteAtlas:
     secondaryTextureSettings: {}
     variantMultiplier: 1
     packables:
-    - {fileID: 5472462837238665580, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
-    - {fileID: -6398160114696860035, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
     - {fileID: -6974698344815954720, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
     - {fileID: 5123687756660634079, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
     - {fileID: 5004748994322545158, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
@@ -89,8 +87,86 @@ SpriteAtlas:
     isAtlasV2: 0
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
-  m_PackedSprites: []
-  m_PackedSpriteNamesToIndex: []
+  m_PackedSprites:
+  - {fileID: -6974698344815954720, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
+  - {fileID: 5123687756660634079, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
+  - {fileID: 5004748994322545158, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
+  - {fileID: 246889212351515288, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
+  - {fileID: 2342260483247874954, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
+  - {fileID: -5057507107911643846, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
+  - {fileID: -2900409406211646467, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
+  - {fileID: 8135758667028840735, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
+  - {fileID: -3521098044788608264, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
+  - {fileID: -3281786706704608565, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
+  - {fileID: -7346865902547917406, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
+  - {fileID: -2306638968284846532, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
+  - {fileID: -2759588277737480524, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
+  - {fileID: 6813836579252084490, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
+  - {fileID: -427551263970063920, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
+  - {fileID: -7968485943955764721, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
+  - {fileID: -8769009535308826456, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
+  - {fileID: -6382800839659340691, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
+  - {fileID: -4214958357522027793, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
+  - {fileID: 2798544350949160553, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
+  - {fileID: -1310492722532085392, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
+  - {fileID: 613305147644382936, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
+  - {fileID: 1034038451286197405, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
+  - {fileID: -8384490297166056304, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
+  - {fileID: 5272832000870023583, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
+  - {fileID: 8228714244630396600, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
+  - {fileID: -6480648133195219229, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
+  - {fileID: 5467422773459372331, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
+  - {fileID: 4209683623705014956, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
+  - {fileID: -1017068320984268189, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
+  - {fileID: 8838082595261324396, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
+  - {fileID: -4396659673758949596, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
+  - {fileID: -6374166163819247203, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
+  - {fileID: -4887913615575351758, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
+  - {fileID: 4269772295865384339, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
+  - {fileID: -7079285790309310922, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
+  - {fileID: 6516526929984352779, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
+  - {fileID: 322330552291843560, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
+  - {fileID: -2199121860335211688, guid: d878683f11fd2a244b167d96bf4f7123, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - HD-UI_Menus-Baby_Blanket_0.png
+  - HD-UI_Menus-bake_button_0.png
+  - HD-UI_Menus-bake_button_1.png
+  - HD-UI_Menus-bake_button_1_0.png
+  - HD-UI_Menus-bake_button_1_1.png
+  - HD-UI_Menus-bake_button_1_2.png
+  - HD-UI_Menus-bake_button_2.png
+  - HD-UI_Menus-bake_Message-G_0.png
+  - HD-UI_Menus-bake_Message-G_1.png
+  - HD-UI_Menus-bake_Message-G_2.png
+  - HD-UI_Menus-bake_Title-G_0.png
+  - HD-UI_Menus-Bird_Body_0.png
+  - HD-UI_Menus-Bird_Foot_1_0.png
+  - HD-UI_Menus-Bird_Foot_2_0.png
+  - HD-UI_Menus-Bird_Head_0.png
+  - HD-UI_Menus-Bird_Wing_0.png
+  - HD-UI_Menus-Feather_0.png
+  - HD-UI_Menus-Feather_1_0.png
+  - HD-UI_Menus-Feather_2_0.png
+  - HD-UI_Menus-Feather_3_0.png
+  - HD-UI_Menus-Feather_4_0.png
+  - HD-UI_Menus-SlideCard_0.png
+  - HD-UI_Menus-Tail_0.png
+  - HD-UI_Menus-bake_button_1_3.png
+  - HD-UI_Menus-bake_button_1_4.png
+  - HD-UI_Menus-bake_button_1_5.png
+  - HD-UI_Menus-bake_button_3.png
+  - HD-UI_Menus-bake_button_4.png
+  - HD-UI_Menus-bake_button_5.png
+  - HD-UI_Menus-bake_Title-G_1.png
+  - HD-UI_Menus-bake_button_2_0.png
+  - HD-UI_Menus-bake_button_2_1.png
+  - HD-UI_Menus-bake_button_2_2.png
+  - HD-UI_Menus-bake_button_2_3.png
+  - HD-UI_Menus-bake_button_2_4.png
+  - HD-UI_Menus-bake_button_2_5.png
+  - HD-UI_Menus-bake_Bird_Head_1-G_0.png
+  - HD-UI_Menus-bake_Bird_Head_1-G_1.png
+  - HD-UI_Menus-bake_Bird_Head_1-G_2.png
   m_RenderDataMap: {}
   m_Tag: UI_Menus Atlas
   m_IsVariant: 0

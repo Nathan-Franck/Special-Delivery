@@ -12,7 +12,7 @@ ScriptedImporter:
   Initialized: 1
   DiscretizationStep: 6
   Framerate: 24
-  Stepped: 1
+  Stepped: 0
   CreateAnimatorController: 1
   AnimatorController: {fileID: 9100000, guid: 43bc874d38888104cad1359868cb6a6d, type: 2}
   MaintainCurvesOnClonedClips: 0
