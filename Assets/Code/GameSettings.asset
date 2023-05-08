@@ -12,9 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 020c5c78c0e56a64dba2e104160240c9, type: 3}
   m_Name: GameSettings
   m_EditorClassIdentifier: 
+  GameState: Master-P_gamestatesleeping
+  MenuState: Master-P_menuloop
   LevelSelectState: Master-P_levelselect
   SettingsState: Master-P_settings
   InGameState: Master-P_gamestatesleeping
+  Tweaks:
+    ObstacleTag: Obstacle
+    ObstacleTimePunish: 5
+    StandardTime: 30
+  Levels:
+  - TimeLimit: 100
+    ObstaclePunishment: 10
+    Prefab: {fileID: 1591542398134987437, guid: b3363bd9e82fdba4193ba37dfa46dff1, type: 3}
   Trigger:
     ClickSettings: ClickSettings
     ClickBack: ClickBack
@@ -23,3 +33,7 @@ MonoBehaviour:
     GameFail: GameFail
     GameVictory: GameVictory
     GameComplete: GameComplete
+  FXTrigger:
+    MusicNote: MusicNote
+    ExclamationPoint: ExclamationPoint
+    FrustrationVessle: FrustrationVessle

@@ -3,8 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 using UnityEngine.SceneManagement;
+using ToonBoom.TBGRenderer;
 
-[RequireComponent(typeof(Animator)), RequireComponent(typeof(AudioSource))]
+[
+    RequireComponent(typeof(Animator)),
+    RequireComponent(typeof(AudioSource)),
+    RequireComponent(typeof(TBGRenderer))
+]
 public class UIGame : MonoBehaviour
 {
     public GameSettings GameSettings;
@@ -40,12 +45,14 @@ public class UIGame : MonoBehaviour
 
     private Animator Animator;
     private AudioSource AudioSource;
+    private TBGRenderer TBGRenderer;
 
     public void Start()
     {
         // Get animator and audio source
         Animator = GetComponent<Animator>();
         AudioSource = GetComponent<AudioSource>();
+        TBGRenderer = GetComponent<TBGRenderer>();
 
         //Hide locks and checks and hat
         PartyHat.SetActive(false);
@@ -64,6 +71,12 @@ public class UIGame : MonoBehaviour
         {
             buttonRef.AddComponent<BoxCollider2D>();
         }
+        // Ensure buttons have a oppotunity to appear before calculating bounds
+        {
+            Animator.Update(0f);
+            TBGRenderer.UpdateRenderer();
+        }
+        UpdateButtonBounds();
 
         // Setup follow chain
         PhysicsTop.target = BeakHolderAnchor;
@@ -80,6 +93,7 @@ public class UIGame : MonoBehaviour
     [System.Serializable]
     public class GameState
     {
+        public GameObject Instance;
         public string CurrentScene;
         public Transform[] Obstacles;
         public float TimeRemaining = 30;
@@ -125,9 +139,9 @@ public class UIGame : MonoBehaviour
 
         // Get the collider at the mouse position
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        var collided = Physics2D.GetRayIntersection(ray, Mathf.Infinity).collider.gameObject;
+        var collided = Physics2D.GetRayIntersection(ray, Mathf.Infinity).collider?.gameObject;
 
-        Debug.Log("Clicked " + collided.name);
+        // Debug.Log("Clicked " + collided.name);
 
         // Back button (all the time!)
         if (collided == BackButtonRef)
@@ -225,15 +239,23 @@ public class UIGame : MonoBehaviour
                 LevelHydrate();
             }
 
+            // If we are switching to GameState, create the level instance
             if (UIState == Animator.StringToHash(GameSettings.GameState))
             {
-                // Reset game state
-                SceneManager.LoadScene(GameSettings.Levels[CurrentLevel].SceneName);
                 TheGameState = DefaultGameState;
+                var levelSettings = GameSettings.Levels[CurrentLevel];
+                TheGameState.Instance = Instantiate(levelSettings.Prefab);
                 TheGameState.Obstacles = GameObject
                     .FindGameObjectsWithTag(GameSettings.Tweaks.ObstacleTag)
                     .Select(x => x.transform)
                     .ToArray();
+                TheGameState.TimeRemaining = levelSettings.TimeLimit;
+            }
+
+            // If we are switching away from GameState, destroy the level instance
+            if (LastUIState == Animator.StringToHash(GameSettings.GameState))
+            {
+                Destroy(TheGameState.Instance);
             }
         }
 

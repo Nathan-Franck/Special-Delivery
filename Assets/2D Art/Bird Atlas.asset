@@ -56,8 +56,24 @@ SpriteAtlas:
     isAtlasV2: 0
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
-  m_PackedSprites: []
-  m_PackedSpriteNamesToIndex: []
+  m_PackedSprites:
+  - {fileID: 6813836579252084490, guid: 4a5abcb7953309f43868dc9a05628510, type: 3}
+  - {fileID: -427551263970063920, guid: 4a5abcb7953309f43868dc9a05628510, type: 3}
+  - {fileID: 1034038451286197405, guid: 4a5abcb7953309f43868dc9a05628510, type: 3}
+  - {fileID: 6671890956531104015, guid: 4a5abcb7953309f43868dc9a05628510, type: 3}
+  - {fileID: -2306638968284846532, guid: 4a5abcb7953309f43868dc9a05628510, type: 3}
+  - {fileID: -6974698344815954720, guid: 4a5abcb7953309f43868dc9a05628510, type: 3}
+  - {fileID: -7968485943955764721, guid: 4a5abcb7953309f43868dc9a05628510, type: 3}
+  - {fileID: -2759588277737480524, guid: 4a5abcb7953309f43868dc9a05628510, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - HD-UI_Menus-Bird_Foot_2_0.png
+  - HD-UI_Menus-Bird_Head_0.png
+  - HD-UI_Menus-Tail_0.png
+  - HD-UI_Menus-WinnerHat_0.png
+  - HD-UI_Menus-Bird_Body_0.png
+  - HD-UI_Menus-Baby_Blanket_0.png
+  - HD-UI_Menus-Bird_Wing_0.png
+  - HD-UI_Menus-Bird_Foot_1_0.png
   m_RenderDataMap: {}
   m_Tag: Bird Atlas
   m_IsVariant: 0

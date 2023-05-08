@@ -24,9 +24,9 @@ public class GameSettings : ScriptableObject
     [System.Serializable]
     public struct Level
     {
-        public int Time;
+        public int TimeLimit;
         public int ObstaclePunishment;
-        public string SceneName;
+        public GameObject Prefab;
     }
 
     [System.Serializable]
